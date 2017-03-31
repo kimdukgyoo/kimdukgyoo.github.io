@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Duk Gyoo Kim
-description: Personal webpage of Duk Gyoo Kim
+title: Minimal theme
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: 
