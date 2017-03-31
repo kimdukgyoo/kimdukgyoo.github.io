@@ -7,7 +7,7 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 <div><font size="4">I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.</font></div>
 
 <div dir="ltr"><font size="2">* I usually go by 'Duk,' by pronouncing 'DOOK' quickly.</font></div>
-<div><font size="2">* Want to enunciate my first name, 'Duk Gyoo'? <br>
+<font size="2">* Want to enunciate my first name, 'Duk Gyoo'?
 
 
 
