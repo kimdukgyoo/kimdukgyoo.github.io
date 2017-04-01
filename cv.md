@@ -59,7 +59,7 @@ __2016__: Chapman University, Southwest Experimental and Behavioral Economics Wo
 __Before 2015__: Public Choice Society Annual Meetings, Southern Economic Association Annual Conference, Canadian Economic Association Annual Conference, The Institute of Humane Studies Summer Research Colloquium, KAEA-KEA International Conference, Economics Graduate Student Conference at Washington University in St. Louis, The 2nd Science of Philanthropy Initiative Conference
 
 ### Affiliations
-American Economic Association, Econometric Society, Canadian Economic Association, Public Choice Society, Korean-American Economic Association
+American Economic Association, Econometric Society, Canadian Economic Association, Korean-American Economic Association
 
 ### Languages
 Korean (native), English (fluent)
