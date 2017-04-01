@@ -1,13 +1,9 @@
----
-layout: default
----
-
 I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, status seeking, and ostentation. My current research interests can be summarized by three keywords: 'fairness in multilateral bargaining', 'voluntary cooperation', and 'concern for relative rank.' 
 
-<div><font size="4">I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.</font></div>
+I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.
 
-<div dir="ltr"><font size="2">* I usually go by 'Duk,' by pronouncing 'DOOK' quickly.</font></div>
-<font size="2">* Want to enunciate my first name, 'Duk Gyoo'?
+* I usually go by 'Duk,' by pronouncing 'DOOK' quickly.
+* Want to enunciate my first name, 'Duk Gyoo'?
 
 
 
