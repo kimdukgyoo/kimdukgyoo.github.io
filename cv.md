@@ -68,25 +68,25 @@ Korean (native), English (fluent)
 South Korea (J-1 Visa)
 
 ### References
-__Thomas R. Palfrey__
-Flintridge Foundation Professor of Economics and Political Science
-1200 E California Blvd. MC 228-77, California Institute of Technology
-Pasadena, CA 91125
-Phone: (626) 395-4088
-Email: trp at hss.caltech.edu
+__Thomas R. Palfrey__  
+Flintridge Foundation Professor of Economics and Political Science  
+1200 E California Blvd. MC 228-77, California Institute of Technology  
+Pasadena, CA 91125  
+Phone: (626) 395-4088  
+Email: trp at hss.caltech.edu  
 
-__Stephen Coate__
-Kiplinger Professor of Public Policy
-476 Uris Hall, Cornell University
-Ithaca, NY 14853
-Phone: (607) 255-1912
-Email: sc163 at cornell.edu
+__Stephen Coate__  
+Kiplinger Professor of Public Policy  
+476 Uris Hall, Cornell University  
+Ithaca, NY 14853  
+Phone: (607) 255-1912  
+Email: sc163 at cornell.edu  
 
-__Robert H. Frank__
-Henrietta Johnson Louis Professor of Management and Professor of Economics
-327 Sage Hall, Johnson Graduate School of Management, Cornell University
-Ithaca, NY 14853
-Phone: (607) 255-8501
-Email: rhf3 at cornell.edu
+__Robert H. Frank__  
+Henrietta Johnson Louis Professor of Management and Professor of Economics  
+327 Sage Hall, Johnson Graduate School of Management, Cornell University  
+Ithaca, NY 14853  
+Phone: (607) 255-8501  
+Email: rhf3 at cornell.edu  
 
 <p align=right> Last updated: March 2017 </p>
