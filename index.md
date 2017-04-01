@@ -5,7 +5,7 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
-* Want to enunciate my first name, 'Duk Gyoo'?  <a href="kimdukgyoo.github.io/howtopronouncemyname.mp3" target="_blank">Audio</a> [Audio](howtopronouncemyname.mp3 "Audio")  
+* Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Audio</a> [Audio](howtopronouncemyname.mp3 "Audio")  
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
