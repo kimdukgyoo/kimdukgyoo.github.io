@@ -8,9 +8,9 @@
 7. The Coin Strategy and Charitable Giving
 
 ## Work in progress
-* Multilateral Bargaining with Proposer Selection Contests (with Sang-Hyun Kim)
-* Mixing Propensity and Strategic Decision Making (with Hee Chun Kim)
-* Public Announcement Under Rational Ignorance (with Yeochang Yoon)
+* Multilateral Bargaining with Proposer Selection Contests (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
+* Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
+* Public Announcement Under Rational Ignorance (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
 
 ## Refereed Publications
 1. Response time in choosing the most or least preferred option _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600 [[PDF](http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf "PDF")]  
