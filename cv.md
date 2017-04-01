@@ -1,6 +1,6 @@
 ## Curriculum Vitae
 
-[[Open CV in PDF](http://people.hss.caltech.edu/~dgkim/CV-DukGyooKim.pdf "CV")]
+<a href="http://people.hss.caltech.edu/~dgkim/CV-DukGyooKim.pdf" target="_blank">[Open CV in PDF]</a>
 
 ### Employment
 - University of Mannheim, Department of Economics, Sept. 2017--  
