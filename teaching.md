@@ -5,7 +5,7 @@
 - Spring 2018: Public Economics
 
 ### Cornell University (Teaching Assistant)
-- Spring 2015: ECON 4200 - Economic Analysis of Politics, taught by Stephen Coate
+- Spring 2015: ECON 4290 - Economic Analysis of Politics, taught by Stephen Coate
 - Spring 2012: ECON 6200 - Econometrics II (PhD core), taught by Jeorg Stoye 
 - Summer 2012: ECON 3210 - Applied Econometrics, taught by George Jakubson
 - Fall 2012: ECON 3190 - Intro to Statistics and Probability, taught by Yongmiao Hong
