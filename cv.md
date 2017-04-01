@@ -89,4 +89,4 @@ Ithaca, NY 14853
 Phone: (607) 255-8501
 Email: rhf3 at cornell.edu
 
-Last updated: March 2017
+<p align=right> Last updated: March 2017 </p>
