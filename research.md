@@ -13,6 +13,5 @@
 * Public Announcement Under Rational Ignorance (with Yeochang Yoon)
 
 # Refereed Publications
-1. Response time in choosing the most or least preferred option __Economics Bulletin__ Vol. 36 No. 1 pp. 595-600 [pdf](http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf "pdf")
-
-2. Why Are the Poor Conservative? (with Paul Moon Sub Choi) __The Korean Journal of Economics__, 2015, Vol.22(1), pp. 15-24
+1. Response time in choosing the most or least preferred option _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600 [[PDF](http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf "PDF")]  
+2. Why Are the Poor Conservative? (with Paul Moon Sub Choi) _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
