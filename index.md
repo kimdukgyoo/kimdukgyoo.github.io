@@ -7,7 +7,7 @@ I will be joining the Department of Economics at the University of Mannheim as a
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  [Audio](howtopronouncemyname.mp3 "Audio")  
 
-~~~~
+<!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
@@ -127,4 +127,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-~~~~
+-->
