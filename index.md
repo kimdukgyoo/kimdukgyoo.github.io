@@ -1,4 +1,4 @@
-  
+### Welcome.
   
 I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, status seeking, and ostentation. My current research interests can be summarized by three keywords: 'fairness in multilateral bargaining', 'voluntary cooperation', and 'concern for relative rank.' 
 
