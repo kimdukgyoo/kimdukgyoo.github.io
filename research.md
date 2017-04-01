@@ -1,15 +1,11 @@
 # Working Papers
 1. The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement [[PDF](https://www.dropbox.com/s/sexydlcntyjwq95/CycleStationaryEquilibriumInLegislativeBargaining.pdf "PDF")]  
-: This paper studies infinite-horizon sequential bargaining among __n__ (>= 3) players in which the proposer---a player who proposes a distribution of an economic surplus---is randomly selected from the pool of potential proposers, and the current or previous proposers are excluded from the pool of potential proposers when the proposal is rejected and the game moves on to the next round, until every player has the same number of opportunities. To analyze the infinite-horizon model with a particular time dependency per each __n__ rounds (a cycle,) I restrict my attention to the equilibrium characterization with the extended notion of stationarity, which I call a __cycle-stationary subgame perfect__ (CSSP) equilibrium. The CSSP equilibrium is unique (with allowing mixed strategies of selecting coalition members at random) and analogous to some specific forms of finite-horizon bargaining. Even when there is no discount on delay, the proposer's share in equilibrium is strictly smaller than that predicted by the stationary equilibrium of the Baron--Ferejohn legislative bargaining model under a simple majority rule.
-
 2. "One Bite at the Apple": Legislative Bargaining without Replacement [[PDF](http://google.com "To Be Updated")]  
-: To examine how a concern about fairness affects the bargaining outcomes, I modify the many-player "divide-the-dollar'' game in which previous proposers, players who were randomly selected in the previous rounds but failed to provide an accepted proposal, cannot propose again. This bargaining model without replacement yields a unique subgame perfect equilibrium which has two distinctive features: Under majority or unanimity, in equilibrium the first proposer keeps a constant share for herself <i>regardless of</i> the size of the legislature. Under unanimity, the first proposer keeps a <i>smaller</i> share than nonproposers when the discount factor is sufficiently large. Due to these features, the behavioral factors that could drive the bargaining outcomes in the laboratory can be identified. I find that proposers do not fully extract their rent, but a concern about fairness is not a driving factor of it. Out-of-equilibrium observations suggest that retaliation and the fear thereof can be a driving factor.
-
-3. Population Uncertainty in Voluntary Contributions of Public Goods 
-* The Second-Tier Trap: Theory and Experimental Evidence
-* Legislative Bargaining over Particularistic and Collective Goods Revisited 
-* Economic Conservatism of The Poor: The Low Demand for Redistribution
-* The Coin Strategy and Charitable Giving
+3. Population Uncertainty in Voluntary Contributions of Public Goods  
+4. The Second-Tier Trap: Theory and Experimental Evidence  
+5. Legislative Bargaining over Particularistic and Collective Goods Revisited  
+6. Economic Conservatism of The Poor: The Low Demand for Redistribution  
+7. The Coin Strategy and Charitable Giving
 
 # Work in progress
 * Multilateral Bargaining with Proposer Selection Contests (with Sang-Hyun Kim)
