@@ -5,7 +5,18 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
-* Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>
+* Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
+  
+  
+## Upcoming schedules
+- 4/13, Vancouver, Western Political Science Association Conference
+- 5/13, Santa Clara, Bay Area Behavioral and Experimental Economics Conference (participation)
+- 5/17, Seoul, Kyung Hee University
+- 5/20, Seoul, Sungkyunkwan University
+- 5/31, Ithaca, Cornell Political Economics Conference (participation)
+- 6/17, St. Louis, Econometric Society Meetings
+- 6/21, San Diego, Economic Science Association Conference
+- 6/25, San Diego, Western Economic Association International Conference
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
