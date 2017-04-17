@@ -11,7 +11,6 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
   
   
 ## Upcoming schedules
-- 4/13, Vancouver, Western Political Science Association Conference
 - 5/13, Santa Clara, Bay Area Behavioral and Experimental Economics Conference (participation)
 - 5/17, Seoul, Kyung Hee University
 - 5/20, Seoul, Sungkyunkwan University
