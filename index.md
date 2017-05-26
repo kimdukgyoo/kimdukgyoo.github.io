@@ -11,9 +11,6 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
   
   
 ## Upcoming schedules
-- 5/13, Santa Clara, Bay Area Behavioral and Experimental Economics Conference
-- 5/17, Seoul, Kyung Hee University
-- 5/20, Seoul, Sungkyunkwan University
 - 5/31, Ithaca, Cornell Political Economics Conference (participation)
 - 6/17, St. Louis, Econometric Society Meetings
 - 6/21, San Diego, Economic Science Association Conference
