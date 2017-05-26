@@ -1,7 +1,7 @@
 ## Teaching
 
 ### University of Mannheim
-- Fall 2017: Economic Analysis of Politics
+- Fall 2017: Public Choice Thoery
 - Spring 2018: Public Economics
 
 ### Cornell University (Teaching Assistant)
