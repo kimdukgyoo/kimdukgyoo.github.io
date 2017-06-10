@@ -1,20 +1,17 @@
 ## WARNING: THIS IS NOT UP-TO-DATE. I CREATED THIS PAGE FOR USING IT AFTER I MOVE TO GERMANY.
 
-## Welcome.
+## Hello.
   
-I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, status seeking, and ostentation. My current research interests can be summarized by three keywords: 'fairness in multilateral bargaining', 'voluntary cooperation', and 'concern for relative rank.' 
-
-<!--I will be joining the Department of Economics at the University of Mannheim as an Assistant Professor this fall.-->
+I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
-  
 ## Upcoming schedules
-- 5/31, Ithaca, Cornell Political Economics Conference (participation)
-- 6/17, St. Louis, Econometric Society Meetings
-- 6/21, San Diego, Economic Science Association Conference
-- 6/25, San Diego, Western Economic Association International Conference
+- 6/15--6/18, St. Louis, Econometric Society Meetings
+- 6/25--6/28, San Diego, Western Economic Association International Conference
+- 7/11, Seoul, Yonsei Young Economists Workshop
+- 7/19, Sejong City, KAEA-KIPF Conference
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
