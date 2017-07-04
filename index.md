@@ -8,13 +8,11 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
 ## Upcoming schedules
-- 6/15--6/18, St. Louis, Econometric Society Meetings
-- 6/25--6/28, San Diego, Western Economic Association International Conference
 - 7/11, Seoul, Yonsei Young Economists Workshop
 - 7/19, Sejong City, KAEA-KIPF Conference
 
 <!--
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text can be **bold**, _italic_, or ~~strikethrough~~. 
 
 [Link to another page](another-page).
 
