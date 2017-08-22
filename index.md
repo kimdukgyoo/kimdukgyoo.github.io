@@ -1,15 +1,13 @@
-## WARNING: THIS IS NOT UP-TO-DATE. I CREATED THIS PAGE FOR USING IT AFTER I MOVE TO GERMANY.
-
 ## Hello.
-  
+
 I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
-## Upcoming schedules
-- 7/11, Seoul, Yonsei Young Economists Workshop
-- 7/19, Sejong City, KAEA-KIPF Conference
+## Upcoming schedules (Otherwise I will be in Mannheim.)
+- 9/26--10/2, Pasadena CA, Irvine CA
+- 11/2--11/10, Kingston ON, Montreal QC, Amherst MA
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
