@@ -3,8 +3,8 @@
 <a href="http://people.hss.caltech.edu/~dgkim/CV-DukGyooKim.pdf" target="_blank">[Open CV in PDF]</a>
 
 ### Employment
-- University of Mannheim, Department of Economics, Sept. 2017--  
-- California Institute of Technology, Oct. 2015 -- Sept. 2017
+- Assistant Professor: University of Mannheim, Department of Economics, Sept. 2017--  
+- Postdoctoral Scholar in Economics: California Institute of Technology, Oct. 2015 -- Sept. 2017
 
 
 ### Field of Interests
@@ -21,11 +21,8 @@
 ### Working Papers
 1. The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement
 2. "One Bite at the Apple": Legislative Bargaining without Replacement
-3. Population Uncertainty in Voluntary Contributions of Public Goods, under revision
-4. The Second-Tier Trap: Theory and Experimental Evidence, revision submitted
-5. Legislative Bargaining over Particularistic and Collective Goods Revisited, under review
-6. Economic Conservatism of the Poor: The Low Demand for Redistribution, under revision
-7. The Coin Strategy and Charitable Giving
+3. Population Uncertainty in Voluntary Contributions of Public Goods, Revise and Resubmit requested
+4. The Second-Tier Trap: Theory and Experimental Evidence, Accepted at the International Journal of Economic Theory
 
 ### Work in Progress
 1. Multilateral Bargaining with Proposer Selection Contests (with Sang-Hyun Kim)
@@ -38,7 +35,6 @@
 
 ### Fellowships, Grants, Honors and Awards
 - DonorsTrust Dan Searle Postdoctoral Fellowship in Economics, October 2015--
-- Humane Studies Fellowship, May 2015 (declined)
 - East Asia Program Research Travel Grant, May 2015
 - Einaudi Center International Research Travel Award, March 2015
 - Cornell Population Center Rapid Grant, March 2015
@@ -54,7 +50,7 @@
 - Fulbright Graduate Study Award, August 2010 to July 2012
 
 ### Conference/Seminar Presentations
-__2017__ (scheduled\*): Max Planck Institute for Tax Law and Public Finance, University of Mannheim, Korea Informational Society Development Institute, Korea Institute of Public Finance, Korea Institute of International Economic Policy, Korea Energy Economics Institute, University of Massachusetts Amherst, Western Political Science Association Conference\*, SKKU Junior Faculty Research Conference\*, Western Economics Association International Annual Meetings\*  
+__2017__ (scheduled\*): Max Planck Institute for Tax Law and Public Finance, University of Mannheim, Korea Informational Society Development Institute, Korea Institute of Public Finance, Korea Institute of International Economic Policy, Korea Energy Economics Institute, University of Massachusetts Amherst, Western Political Science Association Conference, SKKU Junior Faculty Research Conference, Western Economics Association International Annual Meetings 
 __2016__: Chapman University, Southwest Experimental and Behavioral Economics Workshop Annual Conference, Canadian Economics Association Annual Conference, Caltech, Western Economics Association International Annual Meetings, Sogang University, Seoul National University, KDI School of Public Policy and Management, KAEA-KEA International Conference, Cornell University, Canadian Public Economics Group Conference, North-American ESA Conference, Sonoma State University, Midwest Economic Theory Conference  
 __Before 2015__: Public Choice Society Annual Meetings, Southern Economic Association Annual Conference, Canadian Economic Association Annual Conference, The Institute of Humane Studies Summer Research Colloquium, KAEA-KEA International Conference, Economics Graduate Student Conference at Washington University in St. Louis, The 2nd Science of Philanthropy Initiative Conference
 
@@ -65,7 +61,7 @@ American Economic Association, Econometric Society, Canadian Economic Associatio
 Korean (native), English (fluent)
 
 ### Citizenship
-South Korea (J-1 Visa)
+South Korea
 
 ### References
 __Thomas R. Palfrey__  
