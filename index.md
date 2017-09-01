@@ -7,7 +7,6 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
   
 ## Upcoming schedules (Otherwise I will be in Mannheim.)
 - 9/26--10/2, Pasadena CA, Irvine CA
-- 11/2--11/10, Kingston ON, Montreal QC, Amherst MA
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
