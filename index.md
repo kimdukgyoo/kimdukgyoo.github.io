@@ -1,3 +1,4 @@
+<!-- To update the left column (contact info & photo) on the index page, check '_layout/default'-->
 ## Hello.
 
 I am an applied microeconomist and I conduct lab and field experiments to understand how individuals' economic decisions are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.
