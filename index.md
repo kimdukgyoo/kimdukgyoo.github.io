@@ -6,7 +6,7 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
-## Upcoming schedules (Otherwise I will be in Mannheim.)
+## Upcoming schedules
 - 9/26--10/2, Pasadena CA, Irvine CA
 
 <!--
