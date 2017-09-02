@@ -21,7 +21,7 @@
 ### Working Papers
 1. The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement
 2. "One Bite at the Apple": Legislative Bargaining without Replacement
-3. Population Uncertainty in Voluntary Contributions of Public Goods, Revise and Resubmit requested
+3. Population Uncertainty in Voluntary Contributions of Public Goods, Revision submitted
 4. The Second-Tier Trap: Theory and Experimental Evidence, Accepted at the International Journal of Economic Theory
 
 ### Work in Progress
