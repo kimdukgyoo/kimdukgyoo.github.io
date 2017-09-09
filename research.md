@@ -10,5 +10,5 @@
 
 ## Refereed Publications
 1. The Second-Tier Trap: Theory and Experimental Evidence, accepted at _The International Journal of Economic Theory_
-2. Response time in choosing the most or least preferred option, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600 [[PDF](http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf "PDF")]  
+2. [Response time in choosing the most or least preferred option(http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf "PDF")], _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
 3. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
