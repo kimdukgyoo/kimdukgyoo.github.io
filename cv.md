@@ -34,20 +34,20 @@
 - Why Are the Poor Conservative? (with Paul Moon Sub Choi), Korean Journal of Economics, 2015, Vol 22(1), pp. 15-24
 
 ### Fellowships, Grants, Honors and Awards
-- DonorsTrust Dan Searle Postdoctoral Fellowship in Economics, October 2015 to September 2017
+- DonorsTrust Dan Searle Postdoctoral Fellowship in Economics, Oct. 2015 to Sep. 2017
 - East Asia Program Research Travel Grant, May 2015
-- Einaudi Center International Research Travel Award, March 2015
+- Einaudi Center International Research Travel Award, Mar. 2015
 - Cornell Population Center Rapid Grant, March 2015
-- Cornell Graduate School Conference Travel Grant, 2014-2015
-- Charles Koch Foundation Dissertation Research Grant, 2015-2016
+- Cornell Graduate School Conference Travel Grant, 2014--2015
+- Charles Koch Foundation Dissertation Research Grant, 2015--2016
 - The Howard and Abby Milstein Graduate Teaching Assistantship (teaching award), 2014
-- Cornell Graduate School Research Travel Grant, November 2014
-- Hayek Fund for Scholars, The Institute of Humane Studies, October 2014
-- The Institute of Humane Studies Conference and Research Grant, September 2014
-- Cornell Population Center Rapid Grant, August 2014
-- Cornell Graduate School Conference Travel Grant, 2013-2014
-- Science of Philanthropy Initiative PhD Grant, March 2014
-- Fulbright Graduate Study Award, August 2010 to July 2012
+- Cornell Graduate School Research Travel Grant, Nov. 2014
+- Hayek Fund for Scholars, The Institute of Humane Studies, Oct. 2014
+- The Institute of Humane Studies Conference and Research Grant, Sep. 2014
+- Cornell Population Center Rapid Grant, Aug. 2014
+- Cornell Graduate School Conference Travel Grant, 2013--2014
+- Science of Philanthropy Initiative PhD Grant, Mar. 2014
+- Fulbright Graduate Study Award, Aug. 2010 to Jul. 2012
 
 ### Conference/Seminar Presentations
 __2017__: Max Planck Institute for Tax Law and Public Finance, University of Mannheim, Korea Informational Society Development Institute, Korea Institute of Public Finance, Korea Institute of International Economic Policy, Korea Energy Economics Institute, University of Massachusetts Amherst, Western Political Science Association Conference, SKKU Junior Faculty Research Conference, Western Economics Association International Annual Meetings  
