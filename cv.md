@@ -22,7 +22,6 @@
 1. The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement
 2. "One Bite at the Apple": Legislative Bargaining without Replacement
 3. Population Uncertainty in Voluntary Contributions of Public Goods, Revision submitted
-4. The Second-Tier Trap: Theory and Experimental Evidence, Accepted at the International Journal of Economic Theory
 
 ### Work in Progress
 1. Multilateral Bargaining with Proposer Selection Contests (with Sang-Hyun Kim)
@@ -30,11 +29,12 @@
 3. Public Announcement under Rational Ignorance (with Yeochang Yoon)
 
 ### Refereed Journal Publications
+- The Second-Tier Trap: Theory and Experimental Evidence, Forthcoming at the International Journal of Economic Theory
 - Response time in choosing the most or least preferred option, Economics Bulletin, 2016, Vol. 36 No. 1 pp. 595-600
 - Why Are the Poor Conservative? (with Paul Moon Sub Choi), Korean Journal of Economics, 2015, Vol 22(1), pp. 15-24
 
 ### Fellowships, Grants, Honors and Awards
-- DonorsTrust Dan Searle Postdoctoral Fellowship in Economics, October 2015--
+- DonorsTrust Dan Searle Postdoctoral Fellowship in Economics, October 2015 to September 2017
 - East Asia Program Research Travel Grant, May 2015
 - Einaudi Center International Research Travel Award, March 2015
 - Cornell Population Center Rapid Grant, March 2015
@@ -50,7 +50,7 @@
 - Fulbright Graduate Study Award, August 2010 to July 2012
 
 ### Conference/Seminar Presentations
-__2017__ (scheduled\*): Max Planck Institute for Tax Law and Public Finance, University of Mannheim, Korea Informational Society Development Institute, Korea Institute of Public Finance, Korea Institute of International Economic Policy, Korea Energy Economics Institute, University of Massachusetts Amherst, Western Political Science Association Conference, SKKU Junior Faculty Research Conference, Western Economics Association International Annual Meetings  
+__2017__: Max Planck Institute for Tax Law and Public Finance, University of Mannheim, Korea Informational Society Development Institute, Korea Institute of Public Finance, Korea Institute of International Economic Policy, Korea Energy Economics Institute, University of Massachusetts Amherst, Western Political Science Association Conference, SKKU Junior Faculty Research Conference, Western Economics Association International Annual Meetings  
 __2016__: Chapman University, Southwest Experimental and Behavioral Economics Workshop Annual Conference, Canadian Economics Association Annual Conference, Caltech, Western Economics Association International Annual Meetings, Sogang University, Seoul National University, KDI School of Public Policy and Management, KAEA-KEA International Conference, Cornell University, Canadian Public Economics Group Conference, North-American ESA Conference, Sonoma State University, Midwest Economic Theory Conference  
 __Before 2015__: Public Choice Society Annual Meetings, Southern Economic Association Annual Conference, Canadian Economic Association Annual Conference, The Institute of Humane Studies Summer Research Colloquium, KAEA-KEA International Conference, Economics Graduate Student Conference at Washington University in St. Louis, The 2nd Science of Philanthropy Initiative Conference
 
