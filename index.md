@@ -9,9 +9,6 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 ## Upcoming schedules
 - 9/26--10/2, Pasadena CA, Irvine CA
 
-<pr>
-<a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20170908.pdf" target="_blank"> trial...</a>
-
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
 
