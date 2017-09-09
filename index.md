@@ -9,6 +9,8 @@ I am an applied microeconomist and I conduct lab and field experiments to unders
 ## Upcoming schedules
 - 9/26--10/2, Pasadena CA, Irvine CA
 
+<script src="/js/pdfobject.js"></script>
+<script>PDFObject.embed("/pdf/PARI_20170908.pdf", "#whatsthishashtag");</script>
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
 
