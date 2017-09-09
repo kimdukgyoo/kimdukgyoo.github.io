@@ -1,14 +1,12 @@
 ## Working Papers
 1. The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement [[PDF](https://www.dropbox.com/s/sexydlcntyjwq95/CycleStationaryEquilibriumInLegislativeBargaining.pdf "PDF")]  
 2. "One Bite at the Apple": Legislative Bargaining without Replacement [[PDF](http://google.com "To Be Updated")]  
-3. Population Uncertainty in Voluntary Contributions of Public Goods, resubmitted <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20170908.pdf" target="_blank"> [PDF]</a>
-
-[[PDF](https://www.dropbox.com/s/6htn5226xdve53c/PopulationUncertaintyInVolutaryContributions.pdf "PDF")]
+3. Population Uncertainty in Voluntary Contributions of Public Goods, resubmitted [[PDF](https://www.dropbox.com/s/6htn5226xdve53c/PopulationUncertaintyInVolutaryContributions.pdf "PDF")]
 
 ## Work in progress
 * Multilateral Bargaining with Proposer Selection Contests (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
 * Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
-* Public Announcement Under Rational Ignorance (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20170908.pdf" target="_blank"> Public Announcement Under Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
 
 ## Refereed Publications
 1. The Second-Tier Trap: Theory and Experimental Evidence, accepted at _The International Journal of Economic Theory_
