@@ -1,3 +1,5 @@
+/*This file will not be updated as of October 11, 2017.*/
+
 ## Curriculum Vitae
 
 <a href="http://people.hss.caltech.edu/~dgkim/CV-DukGyooKim.pdf" target="_blank">[Open CV in PDF]</a>
