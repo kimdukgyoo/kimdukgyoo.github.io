@@ -10,7 +10,6 @@ I study topics on public economics and political economy, and I conduct lab and 
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
 ## Upcoming schedules
-- 10/24--10/28, Seoul (Yonsei University)
 - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
 
 <!--
