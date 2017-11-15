@@ -1,18 +1,18 @@
 <!-- To update the left column (contact info & photo) on the index page, check '_layout/default'-->
 ## Hello.
-
+```
 Please find my <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CV-DukGyooKim.pdf" target="_blank">CV here</a>.
-
+```
 I study topics on public economics and political economy, and I conduct lab and field experiments to understand how individuals' economic decisions within a group are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.
 
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
-```
-## Upcoming schedules
-- 11/9--11/12, Dallas Texas (Midwest Theory Conference)
-```
+
+[comment]: <> ## Upcoming schedules
+[comment]: <> - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
+
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
