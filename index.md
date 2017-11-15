@@ -9,11 +9,10 @@ I study topics on public economics and political economy, and I conduct lab and 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
   
-[comment]: # (This actually is the most platform independent comment)
-
-[comment]: <> ## Upcoming schedules
-[comment]: <> - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
-
+<!--  
+## Upcoming schedules
+- 11/9--11/12, Dallas Texas (Midwest Theory Conference)
+-->
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~. 
