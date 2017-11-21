@@ -1,6 +1,6 @@
 ## Working Papers
-* The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement [[PDF](https://www.dropbox.com/s/sexydlcntyjwq95/CycleStationaryEquilibriumInLegislativeBargaining.pdf "PDF")]  
-* "One Bite at the Apple": Legislative Bargaining without Replacement [[PDF](http://google.com "To Be Updated")]  
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20171121.pdf" target="_blank"> Public Announcement Under Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
 
 ## Work in progress
