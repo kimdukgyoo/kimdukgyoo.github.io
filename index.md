@@ -3,7 +3,7 @@
 
 ### <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
 
-I study topics on public economics and political economy, and I conduct lab and field experiments/
+I study topics on public economics and political economy, and I conduct lab and field experiments.
 <!--to understand how individuals' economic decisions within a group are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.-->
 
 * I usually go by 'Duk,' by pronouncing 'DOOK' quickly.  
