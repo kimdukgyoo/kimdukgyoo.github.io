@@ -18,7 +18,7 @@ I study topics on public economics and political economy, and I conduct lab and 
 * Multilateral Bargaining with Costly Recognition: An Experiment (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
 * Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 
-## Refereed Publications
+## Publications
 1.  <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, forthcoming at _The Journal of Economic Behavior & Organization_
 1. <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=TheSecondTierTrap-TheoryandEvidence.pdf" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, forthcoming at _The International Journal of Economic Theory_
 2. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
