@@ -13,9 +13,9 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20171121.pdf" target="_blank"> Public Announcement Under Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=MixingPropensity_20171223.pdf" targer="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 
 ## Work in progress
+* Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 * Multilateral Bargaining with Costly Recognition: An Experiment (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
 
 
