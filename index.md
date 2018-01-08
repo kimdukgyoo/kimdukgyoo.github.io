@@ -25,6 +25,10 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 2. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
 3. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
 
+## Mimeo
+* <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
+A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and one donation was made. Although I still like the idea and the experimental design, I will leave it as a working paper. 
+
 <!--  
 ## Upcoming schedules
 - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
