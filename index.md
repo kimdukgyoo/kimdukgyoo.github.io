@@ -27,7 +27,7 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 
 ## Mimeo
 * <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
-A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. Although I still like the idea and the experimental design,... 
+A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
 
 <!--  
 ## Upcoming schedules
