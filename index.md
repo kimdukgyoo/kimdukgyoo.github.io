@@ -14,10 +14,11 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PARI_20171225.pdf" target="_blank"> Public Announcement Under Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=MultilateralBargainingWithProposerSelectionContest_20171230.pdf" target="_blank"> Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
-
-## Work in progress
+* <a href="https://kimdukgyoo.github.it/pdfjs/web/viewer.html?file=PositionalConcern_20180211.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>
+ 
+ ## Work in progress
 * Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
-
+* Penalty Lottery
 
 ## Publications
 1.  <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _The Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
