@@ -17,7 +17,7 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PositionalConcern_20180211.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>
  
 ## Work in progress
-* Mixing Propensity and Strategic Decision Making (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic_20180220.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 * Penalty Lottery
 
 ## Publications
