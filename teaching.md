@@ -2,7 +2,7 @@
 
 ### University of Mannheim
 - Fall 2017: Public Choice Thoery
-- Spring 2018: Public Economics
+- Spring 2018: Public Economics, Many-Player Bargaining (BA seminar)
 
 ### Cornell University (Teaching Assistant)
 - Spring 2015: ECON 4290 - Economic Analysis of Politics, taught by Stephen Coate
