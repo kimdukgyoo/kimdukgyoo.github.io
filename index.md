@@ -18,7 +18,7 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
  
 ## Work in progress
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic_20180220.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
-* Penalty Lottery (draft available upon request)
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
 
 ## Publications
 1.  <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _The Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
