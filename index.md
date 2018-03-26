@@ -12,7 +12,7 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
-* <a href="http://ssrn.com/abstract=3118097" target="_blank"> Public Announcement Under Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/theory-faqs_20180319.pdf" target="_blank"> A Theory of FAQs</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage"))
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=MultilateralBargainingWithProposerSelectionContest_20171230.pdf" target="_blank"> Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PositionalConcern_20180211.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>
  
