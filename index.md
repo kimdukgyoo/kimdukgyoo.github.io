@@ -1,7 +1,7 @@
 <!-- To update the left column (contact info & photo) on the index page, check '_layout/default'-->
 ## Hello.
 
-### <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
+### <a href="https://kimdukgyoo.github.io/pdfjs/web/CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
 
 I am an assitant professor in Economics at the University of Mannheim. I study topics on public economics and political economy, and I conduct lab and field experiments.
 <!--to understand how individuals' economic decisions within a group are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.-->
@@ -10,14 +10,14 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
 * Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
  
 ## Working Papers
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/theory-faqs_20180319.pdf" target="_blank"> A Theory of FAQs</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage")) <span style="color:LightGray">An earlier version was circulated under the title "Public Announcement with Rational Ignorance."</span>
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=MultilateralBargainingWithProposerSelectionContest_20171230.pdf" target="_blank"> Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/viewer.html?file=PositionalConcern_20180211.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/MultilateralBargainingWithProposerSelectionContest_20171230.pdf" target="_blank"> Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/PositionalConcern_20180211.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>
  
 ## Work in progress
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic_20180220.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 <!-- * Penalty Lottery (Draft available upon request) -->
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
 
