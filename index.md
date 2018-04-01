@@ -18,7 +18,6 @@ I am an assitant professor in Economics at the University of Mannheim. I study t
  
 ## Work in progress
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
-<!-- * Penalty Lottery (Draft available upon request) -->
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
 
 ## Publications
