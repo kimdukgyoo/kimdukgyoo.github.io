@@ -22,7 +22,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 
 ## Publications
 1.  <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _The Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
-1. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2343928" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, forthcoming at _The International Journal of Economic Theory_
+1. <a href="https://doi.org/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _The International Journal of Economic Theory_, 2018
 2. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
 3. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
 
