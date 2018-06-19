@@ -30,6 +30,9 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
 A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
 
+## Teaching
+I teach Public Choice Theory in every fall semester for Bachelors, and Public Economics in every spring semester for Masters. 
+
 <!--  
 ## Upcoming schedules
 - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
