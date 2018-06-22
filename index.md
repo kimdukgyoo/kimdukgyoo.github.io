@@ -14,17 +14,17 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank">"One Bite at the Apple": Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank"> A Theory of FAQs</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage")) <span style="color:Gray">Revision requested at Journal of Economic Behavior & Organization</span>
 * Multilateral Bargaining with Proposer Selection Contest (new draft coming soon) (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/ECP.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a> <span style="color:Gray">Resubmitted to European Journal of Political Economy</span>
  
 ## Work in progress
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
 
 ## Publications
-1.  <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _The Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
-1. <a href="https://doi.org/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _The International Journal of Economic Theory_, Forthcoming
-2. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
-3. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
+1. <a href="https://kimdukgyoo.github.io/pdfjs/web/ECP.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Accepted
+1. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _The Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
+2. <a href="https://doi.org/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _The International Journal of Economic Theory_, Forthcoming
+3. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
+4. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _The Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
 
 ## Mimeo
 * <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
