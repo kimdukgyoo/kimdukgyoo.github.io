@@ -20,7 +20,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
 
 ## Publications
-1. <a href="https://kimdukgyoo.github.io/pdfjs/web/ECP.pdf" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Accepted
+1. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Forthcoming
 1. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, 2018, Pages 218-231
 2. <a href="https://doi.org/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _International Journal of Economic Theory_, Forthcoming
 3. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
