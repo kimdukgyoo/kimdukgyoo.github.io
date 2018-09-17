@@ -16,9 +16,11 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with [Yeochang Yoon](https://sites.google.com/site/yyeochang/ "Yeochang Yoon's webpage")) <span style="color:Gray">Revised and resubmitted</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
 
 ## Work in progress
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
+* Multilateral Bargaining on a Loss Domain (with [Wooyoung Lim](http://wooyoung78lim.wixsite.com/wooyounglim "Wooyoung Lim's webpage"))
+* Collective Policy Decisions and the Optimal Voting Rule (with [Jinhyuk Lee](https://sites.google.com/site/jinhyuk2con/) and [Euncheol Shin](https://sites.google.com/site/euncheolshin00/))
 
 ## Publications
 1. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Forthcoming
