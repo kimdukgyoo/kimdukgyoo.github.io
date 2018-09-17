@@ -14,13 +14,13 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>) <span style="color:Gray">Revised and resubmitted</span>
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with [Sang-Hyun Kim](https://sites.google.com/site/sanghyunkim46/home "Sang-Hyun Kim's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/home" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" targer="_blank"> Penalty Lottery </a>
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with [Hee Chun Kim](https://sites.google.com/site/hckim0822/home "Hee Chun Kim's webpage"))
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 
 ## Work in progress
-* Multilateral Bargaining on a Loss Domain (with [Wooyoung Lim](http://wooyoung78lim.wixsite.com/wooyounglim "Wooyoung Lim's webpage"))
-* Collective Policy Decisions and the Optimal Voting Rule (with [Jinhyuk Lee](https://sites.google.com/site/jinhyuk2con/) and [Euncheol Shin](https://sites.google.com/site/euncheolshin00/))
+* Multilateral Bargaining on a Loss Domain (with <a href="http://wooyoung78lim.wixsite.com/wooyounglim" target="_blank">Wooyoung Lim</a>)
+* Collective Policy Decisions and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 
 ## Publications
 1. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Forthcoming
