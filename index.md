@@ -11,7 +11,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
  
 ## Working Papers
 
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/CycleStationaryEquilibriumInLegislativeBargaining.pdf" target="_blank"> The Cycle-Stationary Subgame Perfect Equilibrium in Legislative Bargaining without Replacement</a> <span style="color:Gray">Revise and resubmit requested at Games and Economic Behavior</span>
+* <a href="https://kimdukgyoo.github.io/pdfjs/web/Recognition_without_Replacement_in_Legislative_Bargaining.pdf" target="_blank"> Recognition without Replacement in Legislative Bargaining</a> <span style="color:Gray">Revised and resubmitted to Games and Economic Behavior</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>) <span style="color:Gray">Revised and resubmitted to Journal of Economic Behavior and Organization</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
