@@ -13,7 +13,6 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/Recognition_without_Replacement_in_Legislative_Bargaining.pdf" target="_blank"> Recognition without Replacement in Legislative Bargaining</a> <span style="color:Gray">Revised and resubmitted to Games and Economic Behavior</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>) <span style="color:Gray">Revised and resubmitted to Journal of Economic Behavior and Organization</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
@@ -23,11 +22,12 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * Collective Policy Decisions and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 
 ## Publications
-1. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Forthcoming
-1. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, Pages 218-231
-2. <a href="https://onlinelibrary.wiley.com/doi/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _International Journal of Economic Theory_, 2018, Volume 14, Issue 4, 323-349
-3. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
-4. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
+1. <a href="https://kimdukgyoo.github.io/pdfjs/web/theoryFAQs.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, Forthcoming
+2. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, Forthcoming
+3. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, Pages 218-231
+4. <a href="https://onlinelibrary.wiley.com/doi/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _International Journal of Economic Theory_, 2018, Volume 14, Issue 4, 323-349
+5. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600  
+6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
 
 ## Mimeo
 * <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
