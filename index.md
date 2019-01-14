@@ -1,7 +1,7 @@
 <!-- To update the left column (contact info & photo) on the index page, check '_layout/default'-->
 ## Hello.
 
-### <a href="https://kimdukgyoo.github.io/pdfjs/web/CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
+### <a href="https://kimdukgyoo.github.io/PDFfiles/CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
 
 I am an assistant professor in Economics at the University of Mannheim. I study topics on public economics and political economy, and I conduct lab and field experiments.
 <!--to understand how individuals' economic decisions within a group are affected by other-regarding preferences such as altruism, trust, fairness concern, reciprocity, retaliation, and status seeking.-->
