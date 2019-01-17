@@ -13,7 +13,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/Recognition_without_Replacement_in_Legislative_Bargaining.pdf" target="_blank"> Recognition without Replacement in Legislative Bargaining</a> <span style="color:Gray">Revised and resubmitted to Games and Economic Behavior</span>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
-* <a href="https://kimdukgyoo.github.io/pdfjs/web/multilateral-bargaining-proposer.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
 * <a href="https://kimdukgyoo.github.io/pdfjs/web/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 
