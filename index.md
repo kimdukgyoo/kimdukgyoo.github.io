@@ -18,7 +18,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 * <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 
 ## Work in progress
-* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a>Multilateral Bargaining on a Loss Domain</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining on a Loss Domain</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * Collective Policy Decisions and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 
 ## Publications
