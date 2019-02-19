@@ -22,10 +22,10 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
  
 
 ## Publications
-1. <a href="https://authors.elsevier.com/a/1YbEwc24anXDL" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, Forthcoming <a href="https://kimdukgyoo.github.io/PDFfiles/theoryFAQs.pdf" target="_blank">[Latest working paper]</a>
 <!-- 
 1. <a href="https://doi.org/10.1016/j.jebo.2018.12.026" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, Forthcoming <a href="https://kimdukgyoo.github.io/PDFfiles/theoryFAQs.pdf" target="_blank">[Latest working paper]</a>
 -->
+1. <a href="https://authors.elsevier.com/a/1YbEwc24anXDL" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, Forthcoming <a href="https://kimdukgyoo.github.io/PDFfiles/theoryFAQs.pdf" target="_blank">[Latest working paper]</a>
 2. <a href="https://authors.elsevier.com/a/1YOiwe52OdRVG" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, 2019, Volume 56, 27-38 <a href="https://kimdukgyoo.github.io/PDFfiles/ECP.pdf" target="_blank">[Latest working paper]</a>
 3. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, Pages 218-231 <a href="https://kimdukgyoo.github.io/PDFfiles/PopulationUncertaintyInVolutaryContributions-Elsevier.pdf" target="_blank">[Latest working paper]</a>      
 4. <a href="https://onlinelibrary.wiley.com/doi/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _International Journal of Economic Theory_, 2018, Volume 14, Issue 4, 323-349 <a href="https://kimdukgyoo.github.io/PDFfiles/TheSecondTierTrap-TheoryandEvidence.pdf" target="_blank">[Latest working paper]</a>
