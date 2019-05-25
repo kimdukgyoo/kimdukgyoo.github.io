@@ -19,7 +19,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Collective Policy Decisions and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
-* Balancing Big and Small Lies (with Franziska Heineke and Diogo Geraldes)
+* Balancing Big and Small Lies (with Franziska Heinicke and Diogo Geraldes)
  
 
 ## Publications
