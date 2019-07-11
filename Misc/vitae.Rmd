@@ -1,4 +1,4 @@
----
+<!-- This is Jeff Racine's CV form. written with R Markdown. Mandatory requirement: Standard TeX (MikTeX or TeXLive), R, RStudio, R Markdown. In the course of first compiles, it will ask to install many packages. -->
 title: "Curriculum Vitae"
 author: "Jeffrey Scott Racine"
 date: "Updated `r format(Sys.time(), '%B %d, %Y')`"
