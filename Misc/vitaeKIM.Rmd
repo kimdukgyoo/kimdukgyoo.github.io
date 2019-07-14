@@ -1,0 +1,193 @@
+---
+title: "Curriculum Vitae"
+author: "Duk Gyoo Kim"
+date: "Updated `r format(Sys.time(), '%B %d, %Y')`"
+always_allow_html: yes
+header-includes:
+   - \usepackage{fontawesome5}
+   - \usepackage{academicons}   
+output:
+  bookdown::pdf_document2:
+    toc: no
+    latex_engine: lualatex    
+    keep_tex: yes
+  bookdown::html_document2: default
+  bookdown::epub_book: default
+  bookdown::word_document2: default
+---
+
+```{r global_options, include=FALSE, cache=FALSE}
+## Set some options for knitr to apply globally
+knitr::opts_chunk$set(cache=FALSE,
+                      echo=FALSE,
+                      autodep=TRUE,
+                      message=FALSE,
+                      warning=FALSE,
+                      dev='tikz',
+                      fig.align='center')
+## Convert pdf to png for non-latex output since tikz pdf output does
+## not appear to work for some browsers (Yihue sent this work-around). Note
+## that this requires sudo port install ImageMagick then
+## install.packages("magick") (adding density=300 improves image quality
+## dramatically and produces html files identical in size to dev='tikz')
+##
+## NOTE - for non-latex output it appears this is run and not cached,
+## so to avoid this overhead, while editing Build Book -> bookdown: pdf_book
+## instead of all formats.
+knitr::opts_hooks$set(dev = function(options) {
+  if(identical(options$dev, 'tikz') && !knitr:::is_latex_output()) {
+    options$fig.process = function(x) {
+      if (!grepl('[.]pdf$', x)) return(x) 
+      x2 = sub('pdf$', 'png', x)
+      magick::image_write(magick::image_convert(magick::image_read(x,density=300),colorspace="rgb"),x2,format='png')
+      x2
+    }
+  }
+  options
+})
+```                      
+
+## \faHome\ Contact Information {-}
+
+-   \faPaperPlane\ Department of Economics\
+    Kenneth Taylor Hall, Room 402\
+    McMaster University\
+    1280 Main Street West\
+    Hamilton, Ontario, Canada, L8S 4M4
+
+-   [\faEnvelope](mailto:d.kim@mcmaster.ca) d.kim@mcmaster.ca
+
+-   \faPhone\ (905) 519 2558
+
+## \faGlobeAmericas\ Academic Profiles and Website {-}
+
+-   [\faGithub\ GitHub Homepage: kimdukgyoo.github.io](https://kimdukgyoo.github.io) 
+
+-   [\aiGoogleScholar\ Google Scholar Profile: scholar.google.com/citations?user=AdwJwrEAAAAJ](https://scholar.google.com/citations?user=AdwJwrEAAAAJ)
+
+-   [\aiIDEASRePEc\ IDEAS/RePEc Profile: ideas.repec.org/f/pki511.html](https://ideas.repec.org/f/pki511.html)
+
+-   [\aiOrcid\ ORCID Profile: orcid.org/0000-0002-8906-5630](https://orcid.org/0000-0002-8906-5630) 
+
+-   [\aiResearchGate\ ResearchGate Profile: www.researchgate.net/profile/Duk_Gyoo_Kim](https://www.researchgate.net/profile/Duk_Gyoo_Kim) 
+
+## Academic Background {-}
+
+-  \faGraduationCap\ *Education:*
+
+    Ph.D.in Economics (2015), Cornell University, Ithaca, United States\
+    M.A.in Economics (2010), Yonsei University, Seoul, South Korea\
+    B.A.in Economics (2008), Yonsei University, Seoul, South Korea
+
+-   *Fields of Specialization:*
+
+    Public Economics, Political Economy\
+    Experimental Economics
+
+-   *Professional Affiliations:*
+
+    American Economic Association\
+    European Economic Association\
+    Korean-American Economic Association\
+    Econometric Society
+    
+## Current Positions {-}
+
+-   Assistant Professor, Department of Economics, University of Mannheim (2017-)
+
+-   Visiting Assistant Professor, Department of Economics, McMaster University (2019)
+
+
+## Past Positions {-}
+
+-   Postdoctoral Scholar, Division of the Humanities and Social Sciences, California Institute of Technology (2015-2017)
+
+## \faAward\ Honours and Awards {-}
+
+-   to be added
+
+## \faBookOpen\ Editorial Positions {-}
+
+-   n.a.
+
+## Visiting Appointments {-}
+
+-   Visiting Researcher, CESifo (2019)
+
+-   Visiting Scholar, Sogang University, Seoul Korea (2016)
+
+## Courses Taught {-}
+
+-   *Graduate:*
+
+    Public Economics
+    
+-   *Undergraduate:*
+
+    Public Choice
+
+
+## Grants and Fellowships {-}
+
+1. to be added
+
+1. there are some
+
+## \aiGoogleScholar\ Google Scholar Citation Summary {-}
+
+<center>
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE,results='asis'}
+foo <- gcite::gcite_user_info('AdwJwrEAAAAJ',verbose=FALSE)
+pander::panderOptions('table.alignment.default',c('left','right','right'))
+pander::pander(foo$citation_indices)
+```
+
+</center>
+
+```{r,message=FALSE,fig.asp=0.4,out.width="75%",warning=FALSE,echo=FALSE,results='asis'}
+require(ggplot2)
+require(gridExtra)
+require(scholar)
+plot1 <- qplot(1)
+plot2 <- qplot(1)
+## Adjust for discrepancy in total (field All[1] in call to gcite)
+adjust <- foo$citation_indices$All[1]-sum(foo$overall_citations$n_citations)
+plot1 <- ggplot(foo$overall_citations,aes(x=year,y=n_citations))+
+    geom_bar(stat='identity')+
+    theme_bw()+
+    xlab('Year')+
+    ylab('Citations/Year')
+plot2 <- ggplot(foo$overall_citations,aes(x=year,y=cumsum(n_citations)+adjust))+
+    geom_bar(stat='identity')+
+    theme_bw()+
+    xlab('Year')+
+    ylab('Cumulative Citations')
+grid.arrange(plot1, plot2, ncol=2)    
+```
+
+## Peer Reviewed Publications {-}
+
+1. to be added
+
+1. there are some
+
+## Work Submitted for Publication {-}
+
+- to be added
+
+<!-- Submitted to JAE May 13 2018, desk reject May 22 2018, submitted to Econometrics Journal Nov 6 2018, mea culpa for delay, returned for formatting (dicks), 45 minutes to get it running -->
+
+- there are some
+
+<!-- Submitted to Journal of Econometrics April 3 2018 -->
+
+## Conference and Seminar Presentations {-}
+
+1. to be added
+
+1. there are some
+
+## Referee and Review Activities {-}
+
+to be added. there are some.
