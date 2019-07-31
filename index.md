@@ -16,11 +16,11 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>) Submitted
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a> Submitted
 * <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
+* Collective Proofreading and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 
 ## Work in progress
 * Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
-* Collective Proofreading and the Optimal Voting Rule (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 * Balancing Big and Small Lies (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
  
 
