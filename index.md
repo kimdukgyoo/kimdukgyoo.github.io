@@ -10,8 +10,7 @@ I am an assistant professor in Economics at the University of Mannheim. I study 
 I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
  
 ## Working Papers
-<!--* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining on a Loss Domain</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>) -->
-* Multilateral Bargaining over the Division of Losses (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>) 
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Recognition_without_Replacement_in_Legislative_Bargaining.pdf" target="_blank"> Recognition without Replacement in Legislative Bargaining</a> <span style="color:Gray">Revised and resubmitted to Games and Economic Behavior</span>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>) Submitted
