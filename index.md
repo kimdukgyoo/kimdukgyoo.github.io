@@ -32,10 +32,11 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 5. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600
 6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
 
+<!--
 ## Mimeo
 * <a href="http://ssrn.com/abstract=2745071" target="_blank"> The Coin Strategy and Charitable Giving</a>
 A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
-
+-->
 ## Teaching
 I teach Public Choice Theory in every fall semester for Bachelors, and Public Economics in every spring semester for Masters. 
 
