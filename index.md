@@ -25,18 +25,15 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a> Submitted
 * <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>) Submitted
-* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> Submitted
 
 ## Work in progress
 * Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Balancing Big and Small Lies (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
  
-<!--
 ## Mimeo
-* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> Submitted
-A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
--->
+* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
+
 ## Teaching
 I teach Public Choice Theory in every fall semester for Bachelors, and Public Economics in every spring semester for Masters. 
 
