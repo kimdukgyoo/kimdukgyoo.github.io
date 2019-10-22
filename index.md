@@ -22,7 +22,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
-* <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>) Submitted
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
@@ -30,7 +30,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 ## Work in progress
 * Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
-* Balancing Big and Small Lies (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
+* Big and Small Lies (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
  
 ## Mimeo
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
