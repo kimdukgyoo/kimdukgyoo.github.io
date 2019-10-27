@@ -17,7 +17,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 3. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, 218-231 <a href="https://kimdukgyoo.github.io/PDFfiles/PopulationUncertaintyInVolutaryContributions-Elsevier.pdf" target="_blank">[Latest working paper]</a>      
 4. <a href="https://onlinelibrary.wiley.com/doi/10.1111/ijet.12158" target="_blank">The Second-Tier Trap: Theory and Experimental Evidence</a>, _International Journal of Economic Theory_, 2018, Volume 14, Issue 4, 323-349 <a href="https://kimdukgyoo.github.io/PDFfiles/TheSecondTierTrap-TheoryandEvidence.pdf" target="_blank">[Latest working paper]</a>
 5. <a href="http://www.accessecon.com/Pubs/EB/2016/Volume36/EB-16-V36-I1-P59.pdf" target="_blank"> Response time in choosing the most or least preferred option</a>, _Economics Bulletin_ Vol. 36 No. 1 pp. 595-600
-6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24
+<!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
