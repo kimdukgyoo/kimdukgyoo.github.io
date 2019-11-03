@@ -3,7 +3,7 @@
 
 ### <a href="https://kimdukgyoo.github.io/PDFfiles/CV-DukGyooKim.pdf" target="_blank">Please find my CV here</a>.
 
-I am an assistant professor in Economics at the University of Mannheim. I study topics on public economics and political economy, and I conduct lab and field experiments.
+I am an assistant professor in the Department of Economics at the University of Mannheim. I study topics on public economics and political economy, and I conduct lab and field experiments.
 
 * I am visiting McMaster University for research from June to December 2019.
 
