@@ -24,7 +24,8 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
-* <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
+* Probability Matching and Strategic Decision Making (with Hee Chun Kim)
+<!--* <a href="https://kimdukgyoo.github.io/PDFfiles/mixing-propensity-strategic.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)-->
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 
 ## Work in progress
