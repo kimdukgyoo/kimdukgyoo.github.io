@@ -5,8 +5,6 @@
 
 I am an assistant professor in the Department of Economics at the University of Mannheim. I study topics on public economics and political economy, and I conduct lab and field experiments.
 
-* I am visiting McMaster University from June to December 2019.
-
 I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
 
 ## Publications
