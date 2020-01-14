@@ -18,7 +18,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
+* <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
