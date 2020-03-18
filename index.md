@@ -9,7 +9,6 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 
 ## Publications
 1. <a href="https://doi.org/10.1016/j.geb.2019.09.007" target="_blank">Recognition without Replacement in Legislative Bargaining</a>, _Games and Economic Behavior_, 2019, Volume 118, 161-175 <a href="https://kimdukgyoo.github.io/PDFfiles/RecognitionWithoutReplacement.pdf" target="_blank">[Latest working paper]</a>
-<!-- link after Nov 12, 2019. https://doi.org/10.1016/j.geb.2019.09.007 -->
 2. <a href="https://doi.org/10.1016/j.jebo.2018.12.026" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, 2019, Volume 158, 560-574 <a href="https://kimdukgyoo.github.io/PDFfiles/theoryFAQs.pdf" target="_blank">[Latest working paper]</a>
 2. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, 2019, Volume 56, 27-38 <a href="https://kimdukgyoo.github.io/PDFfiles/ECP.pdf" target="_blank">[Latest working paper]</a>
 3. <a href="https://doi.org/10.1016/j.jebo.2017.10.009" target="_blank"> Population Uncertainty in Voluntary Contributions of Public Goods</a>, _Journal of Economic Behavior & Organization_, 2018, Volume 145, 218-231 <a href="https://kimdukgyoo.github.io/PDFfiles/PopulationUncertaintyInVolutaryContributions-Elsevier.pdf" target="_blank">[Latest working paper]</a>      
@@ -18,7 +17,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
+* <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper No. 8011
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/penalty-lottery.pdf" target="_blank"> Penalty Lottery </a>
