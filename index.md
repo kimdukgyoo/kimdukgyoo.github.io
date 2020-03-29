@@ -36,7 +36,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 ## Teaching
 I teach Public Choice Theory in every fall semester for Bachelors, and Public Economics in every spring semester for Masters. 
 
-[BAthesis.md](link)
+[link](BAthesis.md)
 <!--  
 ## Upcoming schedules
 - 11/9--11/12, Dallas Texas (Midwest Theory Conference)
