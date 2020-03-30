@@ -10,7 +10,7 @@ Try to answer the following questions before you contact me. It must help you to
 Contact me at least several weeks before your planned start date. 
 
 
-# "Fast-Track" Bachelor's thesis
+### "Fast-Track" Bachelor's thesis
 
 Sometimes I come up with random research questions that are curious enough to know the answer but not good enough to devote my time. I list them as potential ideas for a Bachelor's thesis. As you can see, those are pretty random, and sometimes have nothing to do with my research interests. If you pick and "successfully" accomplish it, you will expect to get grade 1.3.
 
