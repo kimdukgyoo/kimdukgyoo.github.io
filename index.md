@@ -26,6 +26,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/BigSmallLies.pdf" target="_blank"> Big and Small Lies</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), CESifo Working Paper No. 8142
 
 ## Work in progress
+* <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Distributive Politics on Public Bads (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
