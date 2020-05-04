@@ -23,3 +23,5 @@ Sometimes I come up with random research questions that are curious enough to kn
 - **Population density, homogeneity, and conspicous consumptions**: If it is easier to compare your consumptions with others, due to high density of the city you live in, high usage of social media, or more similar people nearby, do you consume more conspicuous goods? 
 
 - **Dictator dividing a loss among many**: If a dictator can allocate all the loss to one peron, or spread out the loss to many, how would the dictator do? When everyone has a typical loss aversion, allocating all the loss to one could be socially better. Of course, the other way can be justified. An online experiment would be sufficient.
+
+- **Robustness checks on multilateral bargaining over the division losses**: There are two frequently-raised questions regarding the experimental design. The goal is to investigate whether the changes in the experimental design leads to different outcomes. I can fund the lab experiments. 
