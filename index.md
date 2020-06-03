@@ -17,13 +17,13 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper No. 8011
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">No. 8011</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">Multilateral Bargaining with Proposer Selection Contest</a> (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Penalty_Lottery.pdf" target="_blank"> Penalty Lottery </a>
 * Probability Matching and Strategic Decision Making (with Hee Chun Kim) <!--* <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank"> Mixing Propensity and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)-->
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
-* <a href="https://kimdukgyoo.github.io/PDFfiles/BigSmallLies.pdf" target="_blank"> Big and Small Lies</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), CESifo Working Paper No. 8142
+* <a href="https://kimdukgyoo.github.io/PDFfiles/BigSmallLies.pdf" target="_blank"> Big and Small Lies</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8142.pdf" target="_blank">No. 8142</a>
 
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
