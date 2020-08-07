@@ -10,7 +10,7 @@ This is a 'misc' page from the old webpage.
 
 ## For publications
 - <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxraW1kdWtneW9vfGd4Ojc5ZmJiOTcxZWQwN2ViN2M" target="_blank">This is Not an Article:&nbsp;Just Some Thoughts on How to Write One</a> by Carsten Sørensen
-- <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxraW1kdWtneW9vfGd4OjVkOTEwZjA3MjYxYTkyMDI" target="_blank">From Manuscript to Publication: A Brief Guide For Economists</a>by John Creedy
+- <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxraW1kdWtneW9vfGd4OjVkOTEwZjA3MjYxYTkyMDI" target="_blank">From Manuscript to Publication: A Brief Guide For Economists</a> by John Creedy
 - <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxraW1kdWtneW9vfGd4OjFkNjkzMTBiNGM3NTUyMDI" target="_blank">..........How to Publish in Top Journals</a> by Kwan Choi
 
 ## For Job market candidates
