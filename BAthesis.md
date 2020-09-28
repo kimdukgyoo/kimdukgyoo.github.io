@@ -14,7 +14,7 @@ Contact me at least several weeks before your planned start date.
 
 Sometimes I come up with random research questions that are curious enough to know the answer but not good enough to devote my time. I list them as potential ideas for a Bachelor's thesis. As you can see, those are pretty random, and sometimes have nothing to do with my research interests. If you pick and "successfully" accomplish it, you will expect to get grade 1.3.
 
-- **Anti-vaxxers after a pandemic disease**: After a pandemic COVID-19, do anti-vaxxers get vaccinated, or strenthen their belief? A small theory on information acquisition combined with some empirical findings would be ideal.
+- **Anti-vaxxers after a pandemic disease**: After a pandemic COVID-19, do anti-vaxxers get vaccinated, or strengthen their belief? A small theory on information acquisition combined with some empirical findings would be ideal.
 
 - **Risk-taking after loss in competitions versus loss in payoff**: When you spend your resources to win a competition, it is possible that you win the competition but lose payoffs or you lose the competition but earn payoffs. How are their risk-taking behaviors affected after those events? A comprehensive literature review and a small-scale experiment would be ideal.
 
