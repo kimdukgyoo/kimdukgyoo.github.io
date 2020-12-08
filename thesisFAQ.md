@@ -12,7 +12,7 @@ Try to answer the following questions before you contact me. It must help you to
 
 2. Which method do you consider answering your research question? " (Wrong answer: "I like theory, so I want to have some theoretical parts in my thesis.")
 
-3. I prefer having an online meeting over writing emails back and forth. A rule of thumb: If your email would have three or more paragraphs, or three or more question marks, schedule an appointment.
+I prefer having an online meeting over writing emails back and forth. A rule of thumb: If your email would have three or more paragraphs, or three or more question marks, schedule an appointment.
 
 ### A typical procedure
 
