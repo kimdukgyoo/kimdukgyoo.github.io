@@ -21,9 +21,9 @@ Try to answer the following questions before you contact me. It must help you to
 2. Most students end up writing a thesis with some empirical data. If you plan to do some empirical work, check the existing data you can browse. Pick some papers you want to begin with. The authors must have described which dataset they used. (If they use confidential data, forget it.) In many cases, the authors even provide supplementary materials, including the dataset. The other way is to start with the existing data you are familiar with. After having a concrete idea about the dataset, you could ask yourself, "with this dataset, what kind of research questions can I answer?" For example, using this way, one former student initially planned to write a public choice theory paper but eventually wrote a paper about American football because he was so familiar with the detailed football dataset.
 (If you plan to write a theory paper or conduct a survey or an experiment, talk to me.)
 
-3. Once you fill out the registration form [link](https://kimdukgyoo.github.io/Supervision/BachelorRegistration.doc), then you have eight weeks.
+3. Once you fill out the registration form [[LINK]](https://kimdukgyoo.github.io/Supervision/BachelorRegistration.doc), then you have eight weeks.
 
-4. Refer to the guidelines [here](https://kimdukgyoo.github.io/Supervision/20141105_Guidelines.pdf) and [here](https://kimdukgyoo.github.io/Supervision/Guidelines_English.pdf). Academic writing is very different from casual writing, so you should expect much time for polishing your writing.
+4. Refer to the guidelines [[HERE]](https://kimdukgyoo.github.io/Supervision/20141105_Guidelines.pdf) and [[HERE]](https://kimdukgyoo.github.io/Supervision/Guidelines_English.pdf). Academic writing is very different from casual writing, so you should expect much time for polishing your writing.
 
 5. At least three weeks before the submission deadline, send me a draft so that I can give you feedback. 
 
