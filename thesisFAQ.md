@@ -23,7 +23,7 @@ Try to answer the following questions before you contact me. It must help you to
 
 3. Once you fill out the registration form [[LINK]](https://kimdukgyoo.github.io/Supervision/BachelorRegistration.doc), then you have eight weeks.
 
-4. Refer to the guidelines [[HERE]](https://kimdukgyoo.github.io/Supervision/20141105_Guidelines.pdf) and [[HERE]](https://kimdukgyoo.github.io/Supervision/Guidelines_English.pdf). Academic writing is very different from casual writing, so you should expect much time for polishing your writing.
+4. Refer to the guidelines [[HERE]](https://kimdukgyoo.github.io/Supervision/20141105_Guidelines.pdf) and [[HERE]](https://kimdukgyoo.github.io/Supervision/Guidelines_English.pdf). Academic writing is very different from casual writing, so you should expect much time for polising your writing.
 
 5. At least three weeks before the submission deadline, send me a draft so that I can give you feedback. 
 
