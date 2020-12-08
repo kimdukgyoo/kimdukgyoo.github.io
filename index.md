@@ -35,7 +35,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
 
 ## Teaching
-I teach Public Choice Theory (Bachelors) and Public Economics I (PhDs) in every fall semester, and Multilateral Bargainig block seminar (Bachelors) and Public Economics (Masters) in every spring semester. For more information about thesis supervision, read <a href="./thesisFAQ.md">[this link]</a>[[this link]](./thesisFAQ.md) first, then contact me.
+I teach Public Choice Theory (Bachelors) and Public Economics I (PhDs) in every fall semester, and Multilateral Bargainig block seminar (Bachelors) and Public Economics (Masters) in every spring semester. For more information about thesis supervision, read [[this link]](./thesisFAQ.md) first, then contact me.
 
 <!-- 
 click [here](BAthesis.md).
