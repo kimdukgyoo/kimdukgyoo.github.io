@@ -8,7 +8,7 @@ I am supervising Bachelor's and Master's theses on topics in microtheory-based p
 
 Try to answer the following questions before you contact me. It must help you to organize your thoughts.
 
-1. What is your research question? (This should be a sentence that ends with a question mark, so wrong answers are, for example, "I am intersted in X and Y," or "previous papers did this and that, and I want to slightly extend them.")
+1. What is your research question? (This should be a sentence that ends with a question mark, so wrong answers are, for example, "I am interested in X and Y," or "previous papers did this and that, and I want to extend them slightly.")
 
 2. Which method do you consider answering your research question? " (Wrong answer: "I like theory, so I want to have some theoretical parts in my thesis.")
 
@@ -16,14 +16,14 @@ Try to answer the following questions before you contact me. It must help you to
 
 ### A typical procedure
 
-1. Contact me at least several weeks before your planned start date: Once you fill out the registration form, then you will officially have eight weeks to write a thesis from that date. Typically, students talk to their supervisor way before the official start date to have a sufficiently long time.
+1. Contact me at least several weeks before your planned start date: Once you fill out the registration form, you will officially have eight weeks to write a thesis from that date. Typically, students talk to their supervisor way before the official start date to have a sufficiently long time.
 
-2. Most of students end up writing a theis with some empirical data. If you plan to do some empirical work, check the existing data you can browse. Pick some papers you want to begin with. The authors must have described which dataset they used. (If they use a confidential data, forget it.) In many cases, the authors even provide supplementary materials including the dataset. The other way is to start with the existing data you are familiar with. After having a concrete idea about the dataset, you could ask yourself "with this dataset, what kind of research questions can I answer?" For example, using this way, one former student initially planned to write a public choice theory paper but eventually wrote a paper about American football because he was so familiar with the detailed football dataset.
+2. Most students end up writing a thesis with some empirical data. If you plan to do some empirical work, check the existing data you can browse. Pick some papers you want to begin with. The authors must have described which dataset they used. (If they use confidential data, forget it.) In many cases, the authors even provide supplementary materials, including the dataset. The other way is to start with the existing data you are familiar with. After having a concrete idea about the dataset, you could ask yourself, "with this dataset, what kind of research questions can I answer?" For example, using this way, one former student initially planned to write a public choice theory paper but eventually wrote a paper about American football because he was so familiar with the detailed football dataset.
 (If you plan to write a theory paper or conduct a survey or an experiment, talk to me.)
 
-3. Once you fill out the registration form [https://kimdukgyoo.github.io/Supervision/BachelorArb ANMELDUNG (registration).doc][link], then you have eight weeks.
+3. Once you fill out the registration form [link](https://kimdukgyoo.github.io/Supervision/BachelorRegistration.doc), then you have eight weeks.
 
-4. Refer to the guidelines [this] and [that]. Academic writing is very different from casual writing, so you should expect a lot of time for polishing your writing.
+4. Refer to the guidelines [here](https://kimdukgyoo.github.io/Supervision/20141105_Guidelines.pdf) and [here](https://kimdukgyoo.github.io/Supervision/Guidelines_English.pdf). Academic writing is very different from casual writing, so you should expect much time for polishing your writing.
 
 5. At least three weeks before the submission deadline, send me a draft so that I can give you feedback. 
 
