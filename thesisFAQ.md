@@ -1,6 +1,6 @@
 ## Thesis Supervision
 
-**IMPORTANT! I INTENTIONALLY left one typo below! When you contact me, you must tell me the typo! This is an attention check!**
+**[IMPORTANT!] I INTENTIONALLY left one typo below. Please read through and find the typo. If you contact me with mentioning the typo, I will pay more attention to you!**
 
 I am supervising Bachelor's and Master's theses on topics in microtheory-based public economics and political economy, broadly defined. I conduct lab experiments for my research, but I do not recommend students to do that. 
 
