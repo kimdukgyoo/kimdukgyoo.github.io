@@ -28,15 +28,16 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank"> Probability Matching and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>), revision requested at _Journal of Economic Behavior & Organization_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>
-
+* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Distributive Politics on Public Bads (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
 
+<!--
 ## Mimeo
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
-
+-->
 ## Teaching and Thesis Supervision
 I teach Public Choice Theory (for Bachelors) and Public Economics I (for PhDs) in every fall semester, and Multilateral Bargainig block seminar (for Bachelors) and Public Economics (for Masters) in every spring semester. For more information about thesis supervision, read [[this link]](./thesisFAQ.md) first, then contact me.
 
