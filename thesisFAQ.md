@@ -2,7 +2,7 @@
 
 **[IMPORTANT!] I intentionally left one typo below. Please read through and find the typo. If you contact me with mentioning the typo, I will pay more attention to you!**
 
-I am supervising Bachelor's and Master's theses on topics in microtheory-based public economics and political economy, broadly defined. I conduct lab experiments for my research, but I do not recommend students to do that. 
+I am supervising Bachelor's and Master's theses on topics in microtheory-based public economics and political economy, broadly defined. I conduct lab experiments for my research, but typically I do not recommend students to do that. (However, if you come up with a really interesting one, I may fund your project.)
 
 ### A desirable way of approaching me
 
@@ -19,7 +19,7 @@ I prefer having an online meeting over writing emails back and forth. A rule of 
 1. Contact me at least several weeks before your planned start date: Once you fill out the registration form, you will officially have eight weeks to write a thesis from that date. Typically, students talk to their supervisor way before the official start date to have a sufficiently long time.
 
 2. Most students end up writing a thesis with some empirical data. If you plan to do some empirical work, check the existing data you can browse. Pick some papers you want to begin with. The authors must have described which dataset they used. (If they use confidential data, forget it.) In many cases, the authors even provide supplementary materials, including the dataset. The other way is to start with the existing data you are familiar with. After having a concrete idea about the dataset, you could ask yourself, "with this dataset, what kind of research questions can I answer?" For example, using this way, one former student initially planned to write a public choice theory paper but eventually wrote a paper about American football because he was so familiar with the detailed football dataset.
-(If you plan to write a theory paper or conduct a survey or an experiment, talk to me.)
+(If you plan to write a theory paper or conduct a survey or an experiment, talk to me. I don't take "a detailed literature review on XYZ" as a thesis topic.)
 
 3. Once you fill out the registration form [[Download]](https://kimdukgyoo.github.io/Supervision/BachelorRegistration.doc), then you have eight weeks.
 
