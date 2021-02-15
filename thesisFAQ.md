@@ -8,7 +8,7 @@ I am supervising Bachelor's and Master's theses on topics in microtheory-based p
 
 Try to answer the following questions before you contact me. It must help you to organize your thoughts.
 
-1. What is your research question? (This should be a sentence that ends with a question mark, so wrong answers are, for example, "I am interested in X and Y," or "previous papers did this and that, and I want to extend them slightly.")
+1. What is your research question? (This should be a sentence that ends with a question mark, so wrong answers are, for example, "I am interested in X and Y," or "previous papers did this and that, and I want to extend them slightly." Sometimes excellent questions, for example, "How can we stop climate change efficiently?", are too big to answer in your thesis. Try to come up with a small, tangible question.)
 
 2. Which method do you consider answering your research question? " (Wrong answer: "I like theory, so I want to have some theoretical parts in my thesis.")
 
