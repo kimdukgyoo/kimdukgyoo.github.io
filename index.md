@@ -19,7 +19,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">No. 8011</a>, revision requested at _Journal of Economic Theory_
+* <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">No. 8011</a>, resubmitted to _Journal of Economic Theory_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Penalty_Lottery.pdf" target="_blank"> Penalty Lottery </a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank"> Probability Matching and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
