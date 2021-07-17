@@ -25,7 +25,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Penalty_Lottery.pdf" target="_blank"> Penalty Lottery </a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank"> Probability Matching and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank"> Collective Proofreading and the Optimal Voting Rule </a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>)
-* <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>, revision requested at _Journal of the Economic Science Association_
+* <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>, resubmitted to _Journal of the Economic Science Association_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
 
 ## Work in progress
