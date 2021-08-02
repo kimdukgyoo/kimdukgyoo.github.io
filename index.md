@@ -8,8 +8,8 @@ I am an assistant professor in the Department of Economics at the University of 
 I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
 
 ## Publications
+1. Multilateral Bargaining with Proposer Selection Contest (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>), _Canadian Journal of Economics_, Volume 54, No. 4 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">[Latest working paper]</a> <a href="https://osf.io/wj9pq/" target="_blank">[OSF Data repository]</a>
 1. <a href="https://doi.org/10.1016/j.socec.2021.101666" target="_blank">Big and Small Lies</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), _Journal of Behavioral and Experimental Economics_, 2021, Volume 91, 101666 <a href="https://kimdukgyoo.github.io/PDFfiles/BigSmallLies.pdf" target="_blank">[Latest working paper]</a>, featured in <a href="https://kimdukgyoo.github.io/PDFfiles/FAS-20200927.pdf" target="_blank">Frankfurter Allgemeine Zeitung</a> (in German)
-1. Multilateral Bargaining with Proposer Selection Contest (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>), _Canadian Journal of Economics_, forthcoming <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">[Latest working paper]</a> <a href="https://osf.io/wj9pq/" target="_blank">[OSF Data repository]</a>
 1. <a href="https://doi.org/10.1016/j.geb.2019.09.007" target="_blank">Recognition without Replacement in Legislative Bargaining</a>, _Games and Economic Behavior_, 2019, Volume 118, 161-175 <a href="https://kimdukgyoo.github.io/PDFfiles/RecognitionWithoutReplacement.pdf" target="_blank">[Latest working paper]</a>
 2. <a href="https://doi.org/10.1016/j.jebo.2018.12.026" target="_blank">A Theory of FAQs: Public Announcements with Rational Ignorance</a> (with <a href="https://sites.google.com/site/yyeochang/" target="_blank">Yeochang Yoon</a>), _Journal of Economic Behavior & Organization_, 2019, Volume 158, 560-574 <a href="https://kimdukgyoo.github.io/PDFfiles/theoryFAQs.pdf" target="_blank">[Latest working paper]</a>
 2. <a href="https://doi.org/10.1016/j.ejpoleco.2018.06.004" target="_blank"> Positional Concern and Low Demand for Redistribution of the Poor</a>, _European Journal of Political Economy_, 2019, Volume 56, 27-38 <a href="https://kimdukgyoo.github.io/PDFfiles/ECP.pdf" target="_blank">[Latest working paper]</a>
@@ -31,6 +31,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
+* Viable Nash Equilibria: An Experiment (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>)
 * Distributive Politics on Public Bads (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
 
 <!--
