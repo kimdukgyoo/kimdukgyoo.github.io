@@ -30,12 +30,13 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
+
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Viable Nash Equilibria: An Experiment (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>)
 * Distributive Politics on Public Bads (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
 * The Effect of Chosen or Given Luck on Honesty (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
 
-<!--
+<!-- 
 ## Mimeo
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> A shorter summary: I ran a field experiment on charitable giving. 16,000 solitication letters were sent, and only one donation was received. I still like the idea and the experimental design though. 
 
