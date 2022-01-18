@@ -12,7 +12,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 <details>
 	<summary>Abstract</summary>
 	this is what will be displayed after clicked.
-<details>
+</details>
 3. Multilateral Bargaining with Proposer Selection Contest (with <a href="https://sites.google.com/site/sanghyunkim46/research" target="_blank">Sang-Hyun Kim</a>), _Canadian Journal of Economics_, forthcoming <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" target="_blank">[Latest working paper]</a> <a href="https://osf.io/wj9pq/" target="_blank">[OSF Data repository]</a>
 4. <a href="https://doi.org/10.1016/j.socec.2021.101666" target="_blank">Big and Small Lies</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), _Journal of Behavioral and Experimental Economics_, 2021, Volume 91, 101666 <a href="https://kimdukgyoo.github.io/PDFfiles/BigSmallLies.pdf" target="_blank">[Latest working paper]</a>, featured in <a href="https://kimdukgyoo.github.io/PDFfiles/FAS-20200927.pdf" target="_blank">Frankfurter Allgemeine Zeitung</a> (in German)
 5. <a href="https://doi.org/10.1016/j.geb.2019.09.007" target="_blank">Recognition without Replacement in Legislative Bargaining</a>, _Games and Economic Behavior_, 2019, Volume 118, 161-175 <a href="https://kimdukgyoo.github.io/PDFfiles/RecognitionWithoutReplacement.pdf" target="_blank">[Latest working paper]</a>
