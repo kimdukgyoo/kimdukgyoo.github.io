@@ -29,6 +29,7 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
 * <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank"> The Effect of Chosen or Given Luck on Honesty</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank"> Positive and Negative Selection in Bargaining: An Experiment</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
@@ -36,6 +37,7 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
 * Viable Nash Equilibria: An Experiment (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>)
 * Distributive Politics on Public Bads (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
+* Rank versus Inequality: Does Gender Composition Matter? (with Max Riegel)
 
 <!-- 
 ## Mimeo
