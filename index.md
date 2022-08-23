@@ -30,8 +30,8 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
 * <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank"> The Effect of Chosen or Given Luck on Honesty</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank"> Positive and Negative Selection in Bargaining: An Experiment</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
-* Viable Nash Equilibria: An Experiment (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>)
-* 
+* <a href="https://kimdukgyoo.github.io/PDFfiles/ViableNash.pdf" target="_blank">Viable Nash Equilibria: An Experiment</a> (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>)
+
 ## Work in progress
 <!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
 
