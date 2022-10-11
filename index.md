@@ -7,6 +7,14 @@ I am an assistant professor in the Department of Economics, Sungkyunkwan Univers
 
 I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
 
+## 2023 Asia-Pacific ESA Meeting in Seoul
+- May 18--May 21, 2023
+- Wooseok Economics Hall at Seoul National University
+- <a href="https://esaseoul2023.weebly.com" target="_blank">Conference website</a>
+- Keynote Speakers: Andreas Blume (U Arizona), Lorenz Goette (NUS), Sanjeev Goyal (U Cambridge), Juanjuan Meng (Peking U), Thomas Palfrey (Caltech)
+- Organizers: Syngjoo Choi (SNU), Duk Gyoo Kim (SKKU), Wooyoung Lim (HKUST)
+
+
 ## Publications
 1. <a href="https://authors.elsevier.com/sd/article/S2214-8043(22)00025-8" target="_blank">Probability Matching and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>), _Journal of Behavioral and Experimental Economics_, Volume 98, June 2022, 101850 <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank">[Latest working paper]</a> 
 2. <a href="https://doi.org/10.1080/1226508X.2022.2040379" target="_blank">Collective Proofreading and the Optimal Voting Rule</a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>), _Global Economic Review_, 2022, 51:1, 1-17 <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank">[Latest working paper]</a> 
