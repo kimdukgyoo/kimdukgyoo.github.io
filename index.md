@@ -11,7 +11,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 - May 18--May 21, 2023
 - Wooseok Economics Hall at Seoul National University
 - <a href="https://esaseoul2023.weebly.com" target="_blank">Conference website</a>
-- Keynote Speakers: Andreas Blume (U Arizona), Lorenz Goette (NUS), Sanjeev Goyal (U Cambridge), Juanjuan Meng (Peking U), Thomas Palfrey (Caltech)
+- Keynote Speakers: Andreas Blume (U Arizona), Lorenz Goette (NUS), Sanjeev Goyal (U Cambridge and NYUAD), Juanjuan Meng (Peking U), Thomas Palfrey (Caltech)
 - Organizers: Syngjoo Choi (SNU), Duk Gyoo Kim (SKKU), Wooyoung Lim (HKUST)
 
 
