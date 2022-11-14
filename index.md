@@ -16,6 +16,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 
 
 ## Publications
+1. <a href="https://kimdukgyoo.github.io/PDFfiles/Penalty_Lottery.pdf" target="_blank"> Penalty Lottery </a>, accepted at _Sandinavian Journal of Economics_
 1. <a href="https://kimdukgyoo.github.io/PDFfiles/OneBiteAtTheApple.pdf" target="_blank"> "One Bite at the Apple": Legislative Bargaining without Replacement</a>, accepted under minor revision, _Journal of Economic Psychology_
 1. <a href="https://authors.elsevier.com/sd/article/S2214-8043(22)00025-8" target="_blank">Probability Matching and Strategic Decision Making</a> (with <a href="https://sites.google.com/site/hckim0822/home" target="_blank">Hee Chun Kim</a>), _Journal of Behavioral and Experimental Economics_, Volume 98, June 2022, 101850 <a href="https://kimdukgyoo.github.io/PDFfiles/ProbMatching.pdf" target="_blank">[Latest working paper]</a> 
 2. <a href="https://doi.org/10.1080/1226508X.2022.2040379" target="_blank">Collective Proofreading and the Optimal Voting Rule</a> (with <a href="https://sites.google.com/site/jinhyuk2con/" target="_blank">Jinhyuk Lee</a> and <a href="https://sites.google.com/site/euncheolshin00/" target="_blank">Euncheol Shin</a>), _Global Economic Review_, 2022, 51:1, 1-17 <a href="https://kimdukgyoo.github.io/PDFfiles/CollectiveProofreading.pdf" target="_blank">[Latest working paper]</a> 
@@ -33,7 +34,6 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/PDFfiles/MBL.pdf" target="_blank">Multilateral Bargaining over the Division of Losses</a> (with <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8011.pdf" target="_blank">No. 8011</a>, resubmitted to _Journal of Economic Theory_
-* <a href="https://kimdukgyoo.github.io/PDFfiles/Penalty_Lottery.pdf" target="_blank"> Penalty Lottery </a>, resubmitted to _Sandinavian Journal of Economics_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
 * <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank">The Effect of Chosen or Given Luck on Honesty</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/effect-chosen-or-given-luck-honesty" target="_blank">No. 9904</a>
