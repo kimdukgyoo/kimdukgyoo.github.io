@@ -7,11 +7,14 @@ I am an assistant professor in the Department of Economics, Sungkyunkwan Univers
 
 I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first name, 'Duk Gyoo'?  <a href="/howtopronouncemyname.mp3" target="_blank">Click to listen</a>  
 
-## Advertisement: 2023 Asia-Pacific ESA Meeting in Seoul
+## Advertisement: <a href="https://esaseoul2023.weebly.com" target="_blank">2023 Asia-Pacific ESA Meeting in Seoul</a>
+![APESASeoul](/images/2023_AP-ESA_Seoul.png)
+<!--
 - May 18--May 21, 2023
 - Wooseok Economics Hall at Seoul National University
 - <a href="https://esaseoul2023.weebly.com" target="_blank">Conference website</a>
 - Keynote Speakers: Andreas Blume (U Arizona), Lorenz Goette (NUS), Sanjeev Goyal (U Cambridge and NYUAD), Juanjuan Meng (Peking U), Thomas Palfrey (Caltech)
+-->
 
 ## Publications
 1. Penalty Lottery, accepted at _Sandinavian Journal of Economics_ <a href="https://kimdukgyoo.github.io/PDFfiles/PenaltyLottery.pdf" target="_blank">[Latest working paper]</a> <a href="https://osf.io/q7ykx/" target="_blank">[OSF Data repository]</a>
