@@ -3,12 +3,12 @@ const tableContainer = document.getElementById('payoff-tables')
 const tables = [
     {
         img: "https://kimdukgyoo.github.io/images/image2.jpg",
-        text: "You can earn positive payoffs when you and your match make the different decision.",
+        text: "You can earn positive payoffs when you and the other participant make different decisions.",
         name: "If you think you are ABOVE the average"
     },
     {
         img: "https://kimdukgyoo.github.io/images/image3.jpg",
-        text: "You can earn positive payoffs when you and your match make the different decision.",
+        text: "You can earn positive payoffs when you and the other participant make different decisions.",
         name: "If you think you are BELOW the average"
     }
 ]
