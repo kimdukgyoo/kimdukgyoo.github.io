@@ -40,13 +40,14 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank"> Positive and Negative Selection in Bargaining</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/positive-and-negative-selection-bargaining-experiment" target="_blank">No. 9908</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ViableNash.pdf" target="_blank">Viable Nash Equilibria: An Experiment</a> (with <a href="http://www.daehongmin.com/" target="_blank">Daehong Min</a> and <a href="http://johnwooders.com/" target="_blank">John Wooders</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/viable-nash-equilibria-experiment" target="_blank">No. 9913</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Rank_vs_Inequality.pdf" target="_blank">Rank versus Inequality---Does Gender Composition Matter?</a> (with Max Riegel) CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp10109.pdf" target="_blank">No. 10109</a>
-* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a> 
+* <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a>
+* <a href="https://kimdukgyoo.github.io/PDFfiles/SharingNegative.pdf" target="_blank">Sharing the Burden of Endogenous Negative Externalities</a> (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
 
+<!--
 ## Work in progress
-<!--* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-->
-
+* Political Blurring on a Condorcet Cycle (with <a href="https://www.wiso.uni-koeln.de/de/forschung/find-an-expert/experts/prof-dr-felix-bierbrauer/" target="_blank">Felix Bierbrauer</a>)-
 * Paradoxes of Network in Bargaining (with <a href="https://sites.google.com/site/joosungecon/research" target="_blank">Joosung Lee</a>)
-* Sharing the Burden of Endogenous Negative Externalities (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
+->
 
 <!-- 
 ## Mimeo
