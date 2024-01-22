@@ -42,6 +42,7 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * <a href="https://kimdukgyoo.github.io/PDFfiles/Rank_vs_Inequality.pdf" target="_blank">Rank versus Inequality---Does Gender Composition Matter?</a> (with Max Riegel) CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp10109.pdf" target="_blank">No. 10109</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/SharingNegative.pdf" target="_blank">Sharing the Burden of Endogenous Negative Externalities</a> (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/positiveselection.pdf" target="_blank">Unveiling the Failure of Positive Selection</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 
 <!--
 ## Work in progress
