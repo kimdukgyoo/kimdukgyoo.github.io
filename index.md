@@ -43,7 +43,7 @@ Volume 55, No.1 <a href="https://kimdukgyoo.github.io/PDFfiles/MBContest.pdf" ta
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/SharingNegative.pdf" target="_blank">Sharing the Burden of Endogenous Negative Externalities</a> (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/positiveselection.pdf" target="_blank">Unveiling the Failure of Positive Selection</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
-* <a href="https://kimdukgyoo.github.io/PDFfiles/chatGPTparadox.pdf" target="_blank">From Helping Hand to Stumbling Block: the ChatGPT Paradox in Competency Experiment</a> (with <a href="https://kisdi.re.kr/eng/brain/e/view.do?key=m2102103227762&brainSn=23" target="_blank">Ahram Moon</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/chatGPTparadox.pdf" target="_blank">From Helping Hand to Stumbling Block: the ChatGPT Paradox in Competency Experiment</a> (with <a href="https://kisdi.re.kr/eng/brain/e/view.do?key=m2102103227762&brainSn=23" target="_blank">Ahram Moon</a>) CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp11002.pdf" target="_blank">No. 11002</a>
 
 <!--
 ## Work in progress
