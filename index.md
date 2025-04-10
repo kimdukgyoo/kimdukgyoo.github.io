@@ -38,6 +38,7 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
+* <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CBDCsurvey.pdf" target="_blank">Public Demand and Financial Implications for Retail CBDC: A Randomized Survey Experiment</a> (with <a href="https://www.researchgate.net/profile/Ohik-Kwon-3" target="_blank">Ohik Kwon</a> and <a href="https://sites.google.com/ucdavis.edu/seungduck-lee" target="_blank">Seungduck Lee</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank"> Positive and Negative Selection in Bargaining</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/positive-and-negative-selection-bargaining-experiment" target="_blank">No. 9908</a>, revision requested at _Journal of Economic Theory_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">Clustering standard errors at the "session" level</a>, CESifo Working Paper <a href="https://www.cesifo.org/DocDL/cesifo1_wp8386.pdf" target="_blank">No. 8386</a>
