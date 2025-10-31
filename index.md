@@ -40,7 +40,7 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://kimdukgyoo.github.io/PDFfiles/HomePension.pdf" target="_blank">Demand for Home Pension and Reverse Mortgage: An Information Provision Survey Experiment</a> (with Indo Hwang)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/HomePension.pdf" target="_blank">Demand for Home Pension and Reverse Mortgage: An Information Provision Survey Experiment</a> (with Indo Hwang), revision requested at _B.E. Journal of Economic Analysis & Policy_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CBDCsurvey.pdf" target="_blank">Public Demand and Financial Implications for Retail CBDC: A Randomized Survey Experiment</a> (with <a href="https://sites.google.com/view/ohik-kwon" target="_blank">Ohik Kwon</a> and <a href="https://sites.google.com/ucdavis.edu/seungduck-lee" target="_blank">Seungduck Lee</a>), revision requested at _Economic Analysis and Policy_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank">Positive and Negative Selection in Bargaining</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/positive-and-negative-selection-bargaining-experiment" target="_blank">No. 9908</a>, resubmitted to _Journal of Economic Theory_
