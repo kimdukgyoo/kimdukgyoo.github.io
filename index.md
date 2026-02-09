@@ -17,6 +17,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 -->
 
 ## Publications
+1. Demand for Home Pension and Reverse Mortgage: An Information Provision Survey Experiment (with Indo Hwang), accepted at _B.E. Journal of Economic Analysis & Policy_ <a href="https://kimdukgyoo.github.io/PDFfiles/HomePension.pdf" target="_blank">[Latest working paper]</a>
 1. <a href="https://doi.org/10.1016/j.socec.2025.102466" target="_blank">Rank versus Inequality---Does Gender Composition Matter?</a> (with <a href="https://max-riegel.netlify.app/" target="_blank">Max Riegel</a>), _Journal of Behavioral and Experimental Economics_, Volume 119, December 2025, 102466 <a href="https://kimdukgyoo.github.io/PDFfiles/RankVsInequality.pdf" target="_blank">[Latest working paper]</a> <a href="https://osf.io/p59af" target="_blank">[OSF Data repository]</a>
 1. <a href="https://doi.org/10.22812/jetem.2025.36.2.001" target="_blank">Clustering Standard Errors at the Session Level</a>, _Journal of Economic Theory and Econometrics_, 2025, Vol.36, No.2, 1-29. <a href="https://kimdukgyoo.github.io/PDFfiles/ClusteringSEsession.pdf" target="_blank">[Latest working paper]</a>
 1. <a href="https://doi.org/10.1016/j.ecolecon.2024.108264" target="_blank">Sharing the Burden of Negative Externalities: A Tale of Gridlock and Accountability Elusion</a> (with <a href="http://www.abarmad.com/" target="_blank">Andrzej Baranski-Madrigal</a>), _Ecological Economics_, 2024, Volume 224, 108264. <a href="https://kimdukgyoo.github.io/PDFfiles/SharingNegative.pdf" target="_blank">[Latest working paper]</a>
@@ -40,7 +41,6 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 <!--6. Why Are the Poor Conservative? (with Paul Moon Sub Choi), _Korean Journal of Economics_, 2015, Vol.22(1), pp. 15-24-->
 
 ## Working Papers
-* <a href="https://kimdukgyoo.github.io/PDFfiles/HomePension.pdf" target="_blank">Demand for Home Pension and Reverse Mortgage: An Information Provision Survey Experiment</a> (with Indo Hwang), resubmitted to _B.E. Journal of Economic Analysis & Policy_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CBDCsurvey.pdf" target="_blank">Public Demand and Financial Implications for Retail CBDC: A Randomized Survey Experiment</a> (with <a href="https://sites.google.com/view/ohik-kwon" target="_blank">Ohik Kwon</a> and <a href="https://sites.google.com/ucdavis.edu/seungduck-lee" target="_blank">Seungduck Lee</a>), resubmitted to _Economic Analysis and Policy_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/PositiveAndNegativeSelection.pdf" target="_blank">Positive and Negative Selection in Bargaining</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/positive-and-negative-selection-bargaining-experiment" target="_blank">No. 9908</a>, resubmitted to _Journal of Economic Theory_
