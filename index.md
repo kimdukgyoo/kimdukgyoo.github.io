@@ -44,8 +44,8 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/PDFfiles/SGLPT.pdf" target="_blank">Experience in the Same-Gender Environments and Low-Promotability Tasks</a> (with <a href="https://sites.google.com/view/mchoi" target="_blank">Minseo Choi</a> and <a href="https://sites.google.com/site/jungseeun/" target="_blank">SeEun Jung</a>)
-* <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>
-* <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank">Does Honesty Respond to Unrelated Luck?</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)<!-- , CESifo Working Paper <a href="https://www.cesifo.org/en/publikationen/2022/working-paper/effect-chosen-or-given-luck-honesty" target="_blank">No. 9904</a>-->
+* <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>, revision requested at the _Journal of Institutional and Theoretical Economics_
+* <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank">Does Honesty Respond to Unrelated Luck?</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/positiveselection.pdf" target="_blank">Unveiling the Failure of Positive Selection</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a>
 
