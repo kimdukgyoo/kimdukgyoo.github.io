@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Stata cmclogit Demonstration</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e9ecef; padding: 20px; }
+        .stata-container { max-width: 900px; margin: 0 auto; background: #ffffff; border: 1px solid #ccc; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 5px; overflow: hidden; }
+        
+        /* Stata 윈도우 헤더 느낌 */
+        .stata-header { background: #f0f0f0; border-bottom: 1px solid #ccc; padding: 10px 15px; display: flex; align-items: center; justify-content: space-between; }
+        .stata-header h3 { margin: 0; font-size: 14px; color: #333; font-weight: normal; }
+        .run-btn { background: #0078D7; color: white; border: none; padding: 6px 15px; border-radius: 3px; cursor: pointer; font-size: 13px; font-weight: bold; }
+        .run-btn:hover { background: #005A9E; }
+
+        /* Stata 결과창 느낌 (Courier 폰트 필수) */
+        .stata-results { background: #ffffff; padding: 20px; min-height: 500px; overflow-y: auto; font-family: 'Courier New', Courier, monospace; font-size: 13px; line-height: 1.2; color: #000000; }
+        
+        .output-text { display: none; white-space: pre; } /* 초기에는 숨김 */
+        .typing-cursor::after { content: '▋'; animation: blink 1s step-start infinite; }
+        
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+
+<div class="stata-container">
+    <div class="stata-header">
+        <h3>Stata/SE 19.5 - Results</h3>
+        <button class="run-btn" onclick="runStata()">Execute</button>
+    </div>
+    
+    <div class="stata-results" id="resultsWindow">
+        <!-- 실행 전 대기 화면 -->
+        <span id="prompt">. <span id="typewriter" class="typing-cursor"></span></span>
+        
+        <!-- === 실제 Stata 결과값 === -->
+        <div id="actualOutput" class="output-text">. webuse choice, clear
+
+. list in 1/15
+
+     +----------------------------------------------------------+
+     | id      sex   income        car   size   choice   dealer |
+     |----------------------------------------------------------|
+  1. |  1     male     46.7   American      2        0       18 |
+  2. |  1     male     46.7      Japan      2        0        8 |
+  3. |  1     male     46.7     Europe      2        1        5 |
+  4. |  2     male     26.1   American      3        1       17 |
+  5. |  2     male     26.1      Japan      3        0        6 |
+     |----------------------------------------------------------|
+  6. |  2     male     26.1     Europe      3        0        2 |
+  7. |  3     male     32.7   American      4        1       12 |
+  8. |  3     male     32.7      Japan      4        0        6 |
+  9. |  3     male     32.7     Europe      4        0        2 |
+ 10. |  4   female     49.2   American      2        0       18 |
+     |----------------------------------------------------------|
+ 11. |  4   female     49.2      Japan      2        1        7 |
+ 12. |  4   female     49.2     Europe      2        0        4 |
+ 13. |  5     male     24.3   American      4        1       10 |
+ 14. |  5     male     24.3      Japan      4        0        7 |
+ 15. |  5     male     24.3     Europe      4        0        3 |
+     +----------------------------------------------------------+
+
+. cmset id car
+
+     Case ID variable: id
+Alternatives variable: car
+
+. cmclogit choice dealer, casevars(size sex income)
+
+Iteration 0:  Log likelihood = -268.76104  
+Iteration 1:  Log likelihood = -247.12609  
+Iteration 2:  Log likelihood = -243.36343  
+Iteration 3:  Log likelihood = -243.34695  
+Iteration 4:  Log likelihood = -243.34694  
+
+Conditional logit choice model                 Number of obs      =        885
+Case ID variable: id                           Number of cases    =        295
+
+Alternatives variable: car                     Alts per case: min =          3
+                                                              avg =        3.0
+                                                              max =          3
+
+                                               Wald chi2(7)       =      28.25
+Log likelihood = -243.34694                    Prob > chi2        =     0.0002
+
+------------------------------------------------------------------------------
+      choice | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+car          |
+      dealer |   .1268065   .0427065     2.97   0.003     .0431033    .2105098
+-------------+----------------------------------------------------------------
+American     |  (base alternative)
+-------------+----------------------------------------------------------------
+Japan        |
+        size |  -.6007247   .1619616    -3.71   0.000    -.9181637   -.2832858
+         sex |  -.4159877   .3229522    -1.29   0.198    -1.048962     .216987
+      income |   .0404964   .0136811     2.96   0.003      .013682    .0673107
+       _cons |   .3871118   .8657478     0.45   0.655    -1.309723    2.083946
+-------------+----------------------------------------------------------------
+Europe       |
+        size |  -.2042099   .1991577    -1.03   0.305    -.5945518    .1861319
+         sex |   .6420412   .4598369     1.40   0.163    -.2592225    1.543305
+      income |   .0358444   .0138744     2.58   0.010     .0086511    .0630377
+       _cons |  -1.145694   1.139309    -1.01   0.315     -3.3787    1.087311
+------------------------------------------------------------------------------</div>
+    </div>
+</div>
+
+<script>
+    // 타이핑 효과에 표시될 명령어를 순서대로 정의
+    const codeLines = [
+        "webuse choice, clear",
+        "list in 1/15",
+        "cmset id car",
+        "cmclogit choice dealer, casevars(size sex income)"
+    ];
+    
+    let isRunning = false;
+
+    function runStata() {
+        if (isRunning) return;
+        isRunning = true;
+        
+        const typeWriterEl = document.getElementById('typewriter');
+        const outputEl = document.getElementById('actualOutput');
+        const promptEl = document.getElementById('prompt');
+        
+        typeWriterEl.innerText = "";
+        outputEl.style.display = "none";
+        promptEl.style.display = "inline";
+        typeWriterEl.classList.add('typing-cursor');
+        
+        const fullCommand = codeLines.join(" \n. ");
+        let i = 0;
+        
+        function type() {
+            if (i < fullCommand.length) {
+                typeWriterEl.innerHTML += fullCommand.charAt(i) === '\n' ? '<br>' : fullCommand.charAt(i);
+                i++;
+                setTimeout(type, 15); // 타이핑 속도
+            } else {
+                typeWriterEl.classList.remove('typing-cursor');
+                promptEl.style.display = "none";
+                outputEl.style.display = "block";
+                isRunning = false;
+            }
+        }
+        type();
+    }
+</script>
+
+</body>
+</html>
