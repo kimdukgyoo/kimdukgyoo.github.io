@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>The Ratio Problem Simulator</title>
+    <title>The Ratio Problem Simulator (Train & Weeks 2005)</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa; color: #333; }
@@ -15,16 +15,18 @@
         .main-content { flex: 2; }
         
         .slider-group { margin-bottom: 20px; }
-        .slider-group label { display: block; font-weight: bold; margin-bottom: 5px; }
+        .slider-group label { display: block; font-weight: bold; margin-bottom: 5px; font-size: 14px; }
         .slider-group span { float: right; color: #007bff; font-weight: bold; }
         input[type=range] { width: 100%; cursor: pointer; }
         
-        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 20px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 20px; }
         .stat-card { background: #e9ecef; padding: 15px; border-radius: 8px; text-align: center; }
-        .stat-card h3 { margin: 0 0 10px 0; font-size: 14px; color: #495057; }
-        .stat-card .value { font-size: 20px; font-weight: bold; color: #212529; }
+        .stat-card h3 { margin: 0 0 10px 0; font-size: 13px; color: #495057; }
+        .stat-card .value { font-size: 18px; font-weight: bold; color: #212529; }
         .stat-card.alert { background: #ffe3e3; }
         .stat-card.alert .value { color: #e03131; }
+        .stat-card.highlight { background: #e3f2fd; border: 2px solid #90caf9;}
+        .stat-card.highlight .value { color: #1565c0; font-size: 20px;}
         
         canvas { max-width: 100%; background: white; }
         .note { font-size: 13px; color: #868e96; text-align: center; margin-top: 10px; }
@@ -35,41 +37,42 @@
 <div class="container">
     <h1>The Ratio Problem: Preference Space WTP</h1>
     <div class="description">
-        <strong>Train & Weeks (2005) 시뮬레이터</strong><br>
-        지불용의액(WTP)은 속성 계수를 가격 계수로 나눈 값입니다.<br> 
-        가격 계수에 로그정규분포를 가정할 때, 분모가 0에 가까워지면서 WTP가 무한대로 폭발하는 현상을 확인해보세요.
+        <strong>Train & Weeks (2005) 시뮬레이터 - Table 1 파라미터 매칭</strong><br>
+        논문의 Table 1에 나온 추정 계수의 <strong>평균(Mean)과 분산(Variance)</strong>을 입력<br>
+        100마일 추가 주행거리에 $20,000 이상을 지불하겠다는 비현실적인 소비자 비율이 10%를 넘는지 확인해보세요. (디폴트 상태) <br>
+		또한 Medium or high performance에 대한 WTP도 확인해 보세요. (mean -1.3030, var 1.4041).
     </div>
 
     <div class="layout">
         <!-- 파라미터 조절 사이드바 -->
         <div class="sidebar">
-            <h3>📊 파라미터 설정</h3>
+            <h3 style="margin-top:0;">📊 파라미터 설정</h3>
             
             <div class="slider-group">
-                <label>1. 속성 계수 (Beta ~ Normal)</label>
+                <label style="color:#d35400;">1. 속성 계수 (Range ~ Lognormal)</label>
             </div>
             <div class="slider-group">
-                <label>평균 (Mean): <span id="betaMeanVal">10.0</span></label>
-                <input type="range" id="betaMean" min="-20" max="20" step="1" value="10">
+                <label>기저 정규분포 평균 (Mean): <span id="betaMeanVal">-0.7272</span></label>
+                <input type="range" id="betaMean" min="-3.0" max="2.0" step="0.0001" value="-0.7272">
             </div>
             <div class="slider-group">
-                <label>표준편차 (Std Dev): <span id="betaStdVal">2.0</span></label>
-                <input type="range" id="betaStd" min="0.1" max="5.0" step="0.1" value="2.0">
+                <label>기저 정규분포 분산 (Variance): <span id="betaVarVal">0.3317</span></label>
+                <input type="range" id="betaVar" min="0.01" max="2.0" step="0.0001" value="0.3317">
             </div>
 
-            <hr style="border: 0; border-top: 1px solid #ddd; margin: 25px 0;">
+            <hr style="border: 0; border-top: 1px solid #ccc; margin: 25px 0;">
 
             <div class="slider-group">
-                <label>2. 가격 계수 (Lambda ~ Lognormal)</label>
-                <small style="color: #666; display: block; margin-bottom: 10px;">*가격의 한계효용(절대값) 모델링</small>
+                <label style="color:#2980b9;">2. 가격 계수 (Price ~ Lognormal)</label>
+                <small style="color: #666; display: block; margin-bottom: 10px;">*단위: $10,000</small>
             </div>
             <div class="slider-group">
-                <label>기저 평균 (Mean): <span id="lambdaMeanVal">-1.0</span></label>
-                <input type="range" id="lambdaMean" min="-5.0" max="2.0" step="0.1" value="-1.0">
+                <label>기저 정규분포 평균 (Mean): <span id="lambdaMeanVal">-0.2233</span></label>
+                <input type="range" id="lambdaMean" min="-3.0" max="2.0" step="0.0001" value="-0.2233">
             </div>
             <div class="slider-group">
-                <label>기저 표준편차 (Std Dev): <span id="lambdaStdVal">0.8</span></label>
-                <input type="range" id="lambdaStd" min="0.1" max="3.0" step="0.1" value="0.8">
+                <label>기저 정규분포 분산 (Variance): <span id="lambdaVarVal">0.5442</span></label>
+                <input type="range" id="lambdaVar" min="0.01" max="3.0" step="0.0001" value="0.5442">
             </div>
         </div>
 
@@ -78,26 +81,32 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <h3>WTP 중간값 (Median)</h3>
-                    <div class="value" id="statMedian">$0.00</div>
+                    <div class="value" id="statMedian">$0</div>
                 </div>
                 <div class="stat-card">
                     <h3>WTP 평균 (Mean)</h3>
-                    <div class="value" id="statMean">$0.00</div>
+                    <div class="value" id="statMean">$0</div>
                 </div>
                 <div class="stat-card alert">
-                    <h3>🚨 WTP 최대값 (Max)</h3>
-                    <div class="value" id="statMax">$0.00</div>
+                    <h3>🚨 WTP 최대값</h3>
+                    <div class="value" id="statMax">$0</div>
+                </div>
+                <!-- 논문 검증용 특별 지표 카드 -->
+                <div class="stat-card highlight">
+                    <h3>🎯 WTP > $20k 비율</h3>
+                    <div class="value" id="statOver20k">0.00%</div>
                 </div>
             </div>
 
             <canvas id="wtpChart"></canvas>
-            <div class="note">📌 시각화를 위해 상위/하위 1%의 극단값을 제외하고 그렸습니다. 'WTP 최대값' 수치를 통해 폭발 현상을 확인하세요.</div>
+            <div class="note">📌 시각화를 위해 상위/하위 1%의 극단값을 제외하고 그려졌음.</div>
         </div>
     </div>
 </div>
 
 <script>
     // Box-Muller 변환을 이용한 정규분포 난수 생성기
+    // 내부 연산은 표준편차를 사용하므로 stdDev를 받음
     function randomNormal(mean, stdDev) {
         let u = 1 - Math.random(); 
         let v = Math.random();
@@ -105,47 +114,61 @@
         return z * stdDev + mean;
     }
 
-    // 포맷팅 함수
-    const formatCurrency = (num) => '$' + num.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    // 포맷팅 함수 (단위가 $10,000 이므로 1.0 = $10,000로 표시)
+    const formatCurrency = (num) => '$' + (num * 10000).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
 
     let chartInstance = null;
 
     function runSimulation() {
-        // 1. UI에서 파라미터 가져오기
+        // 1. UI에서 파라미터(평균과 분산) 가져오기
         const bMean = parseFloat(document.getElementById('betaMean').value);
-        const bStd = parseFloat(document.getElementById('betaStd').value);
+        const bVar = parseFloat(document.getElementById('betaVar').value);
         const lMean = parseFloat(document.getElementById('lambdaMean').value);
-        const lStd = parseFloat(document.getElementById('lambdaStd').value);
+        const lVar = parseFloat(document.getElementById('lambdaVar').value);
 
-        // UI 텍스트 업데이트
-        document.getElementById('betaMeanVal').innerText = bMean.toFixed(1);
-        document.getElementById('betaStdVal').innerText = bStd.toFixed(1);
-        document.getElementById('lambdaMeanVal').innerText = lMean.toFixed(1);
-        document.getElementById('lambdaStdVal').innerText = lStd.toFixed(1);
+        // UI 텍스트 업데이트 (소수점 4자리까지 표시하여 논문 수치와 동일하게 보이도록 함)
+        document.getElementById('betaMeanVal').innerText = bMean.toFixed(4);
+        document.getElementById('betaVarVal').innerText = bVar.toFixed(4);
+        document.getElementById('lambdaMeanVal').innerText = lMean.toFixed(4);
+        document.getElementById('lambdaVarVal').innerText = lVar.toFixed(4);
 
-        // 2. 난수 시뮬레이션 (웹 성능을 위해 5만개로 조정, 충분한 결과 도출)
-        const nDraws = 50000;
+        // 분산을 표준편차로 변환 (난수 생성기에 전달하기 위함)
+        const bStd = Math.sqrt(bVar);
+        const lStd = Math.sqrt(lVar);
+
+        // 2. 난수 시뮬레이션 (10만명)
+        const nDraws = 100000;
         let wtpDraws = new Float64Array(nDraws);
         let sum = 0;
         let max = -Infinity;
+        let over20kCount = 0;
 
         for (let i = 0; i < nDraws; i++) {
-            let beta = randomNormal(bMean, bStd);
-            let lambda = Math.exp(randomNormal(lMean, lStd)); // Lognormal
-            let wtp = beta / lambda;
+            // 변환된 표준편차를 이용해 Lognormal 난수 생성
+            let beta = Math.exp(randomNormal(bMean, bStd));
+            let lambda = Math.exp(randomNormal(lMean, lStd)); 
+            
+            let wtp = beta / lambda; // 기본 단위: $10,000
             wtpDraws[i] = wtp;
             sum += wtp;
             if (wtp > max) max = wtp;
+            
+            // WTP가 2.0 단위($20,000)를 초과하는 사람 카운트
+            if (wtp > 2.0) {
+                over20kCount++;
+            }
         }
 
-        // 3. 통계 계산 (정렬 후 중간값 및 백분위수 도출)
+        // 3. 통계 계산 
         wtpDraws.sort();
         const median = wtpDraws[Math.floor(nDraws / 2)];
         const mean = sum / nDraws;
+        const over20kPercent = (over20kCount / nDraws) * 100;
         
         document.getElementById('statMedian').innerText = formatCurrency(median);
         document.getElementById('statMean').innerText = formatCurrency(mean);
         document.getElementById('statMax').innerText = formatCurrency(max);
+        document.getElementById('statOver20k').innerText = over20kPercent.toFixed(2) + "%";
 
         // 4. 시각화를 위한 극단치 제거 (1% ~ 99%)
         const lowerBound = wtpDraws[Math.floor(nDraws * 0.01)];
@@ -158,8 +181,8 @@
             }
         }
 
-        // 5. 히스토그램 Binning (100개 구간)
-        const bins = 100;
+        // 5. 히스토그램 Binning
+        const bins = 80;
         const minClip = clipped[0];
         const maxClip = clipped[clipped.length - 1];
         const binWidth = (maxClip - minClip) / bins;
@@ -168,7 +191,9 @@
         let binLabels = new Array(bins);
         
         for (let i = 0; i < bins; i++) {
-            binLabels[i] = (minClip + (i * binWidth)).toFixed(1);
+            // X축 라벨을 실제 달러($) 금액으로 변환하여 표시
+            let valueInDollars = (minClip + (i * binWidth)) * 10000;
+            binLabels[i] = '$' + (valueInDollars / 1000).toFixed(1) + 'k';
         }
 
         for (let i = 0; i < clipped.length; i++) {
@@ -180,7 +205,7 @@
         // 6. Chart.js 차트 그리기
         const ctx = document.getElementById('wtpChart').getContext('2d');
         if (chartInstance) {
-            chartInstance.destroy(); // 기존 차트 초기화
+            chartInstance.destroy(); 
         }
 
         chartInstance = new Chart(ctx, {
@@ -190,18 +215,18 @@
                 datasets: [{
                     label: 'Frequency',
                     data: binCounts,
-                    backgroundColor: '#dc3545',
+                    backgroundColor: '#1976d2',
                     barPercentage: 1.0,
                     categoryPercentage: 1.0
                 }]
             },
             options: {
                 responsive: true,
-                animation: { duration: 300 }, // 슬라이더 조작 시 부드러운 애니메이션
+                animation: { duration: 200 }, 
                 scales: {
                     x: {
                         title: { display: true, text: 'Willingness to Pay (WTP)' },
-                        ticks: { maxTicksLimit: 10 } // X축 라벨 개수 제한
+                        ticks: { maxTicksLimit: 8, maxRotation: 0 } 
                     },
                     y: {
                         title: { display: true, text: 'Frequency' },
@@ -217,9 +242,9 @@
 
     // 슬라이더 이벤트 리스너 등록
     document.getElementById('betaMean').addEventListener('input', runSimulation);
-    document.getElementById('betaStd').addEventListener('input', runSimulation);
+    document.getElementById('betaVar').addEventListener('input', runSimulation);
     document.getElementById('lambdaMean').addEventListener('input', runSimulation);
-    document.getElementById('lambdaStd').addEventListener('input', runSimulation);
+    document.getElementById('lambdaVar').addEventListener('input', runSimulation);
 
     // 초기 실행
     runSimulation();
