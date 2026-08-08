@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>The Ratio Problem Simulator</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; }
+        .description { text-align: center; margin-bottom: 30px; color: #666; line-height: 1.6;}
+        
+        .layout { display: flex; gap: 30px; }
+        .sidebar { flex: 1; background: #f1f3f5; padding: 20px; border-radius: 8px; }
+        .main-content { flex: 2; }
+        
+        .slider-group { margin-bottom: 20px; }
+        .slider-group label { display: block; font-weight: bold; margin-bottom: 5px; }
+        .slider-group span { float: right; color: #007bff; font-weight: bold; }
+        input[type=range] { width: 100%; cursor: pointer; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 20px; }
+        .stat-card { background: #e9ecef; padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-card h3 { margin: 0 0 10px 0; font-size: 14px; color: #495057; }
+        .stat-card .value { font-size: 20px; font-weight: bold; color: #212529; }
+        .stat-card.alert { background: #ffe3e3; }
+        .stat-card.alert .value { color: #e03131; }
+        
+        canvas { max-width: 100%; background: white; }
+        .note { font-size: 13px; color: #868e96; text-align: center; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>The Ratio Problem: Preference Space WTP</h1>
+    <div class="description">
+        <strong>Train & Weeks (2005) 시뮬레이터</strong><br>
+        지불용의액(WTP)은 속성 계수를 가격 계수로 나눈 값입니다.<br> 
+        가격 계수에 로그정규분포를 가정할 때, 분모가 0에 가까워지면서 WTP가 무한대로 폭발하는 현상을 확인해보세요.
+    </div>
+
+    <div class="layout">
+        <!-- 파라미터 조절 사이드바 -->
+        <div class="sidebar">
+            <h3>📊 파라미터 설정</h3>
+            
+            <div class="slider-group">
+                <label>1. 속성 계수 (Beta ~ Normal)</label>
+            </div>
+            <div class="slider-group">
+                <label>평균 (Mean): <span id="betaMeanVal">10.0</span></label>
+                <input type="range" id="betaMean" min="-20" max="20" step="1" value="10">
+            </div>
+            <div class="slider-group">
+                <label>표준편차 (Std Dev): <span id="betaStdVal">2.0</span></label>
+                <input type="range" id="betaStd" min="0.1" max="5.0" step="0.1" value="2.0">
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ddd; margin: 25px 0;">
+
+            <div class="slider-group">
+                <label>2. 가격 계수 (Lambda ~ Lognormal)</label>
+                <small style="color: #666; display: block; margin-bottom: 10px;">*가격의 한계효용(절대값) 모델링</small>
+            </div>
+            <div class="slider-group">
+                <label>기저 평균 (Mean): <span id="lambdaMeanVal">-1.0</span></label>
+                <input type="range" id="lambdaMean" min="-5.0" max="2.0" step="0.1" value="-1.0">
+            </div>
+            <div class="slider-group">
+                <label>기저 표준편차 (Std Dev): <span id="lambdaStdVal">0.8</span></label>
+                <input type="range" id="lambdaStd" min="0.1" max="3.0" step="0.1" value="0.8">
+            </div>
+        </div>
+
+        <!-- 메인 콘텐츠 (통계 및 차트) -->
+        <div class="main-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>WTP 중간값 (Median)</h3>
+                    <div class="value" id="statMedian">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>WTP 평균 (Mean)</h3>
+                    <div class="value" id="statMean">$0.00</div>
+                </div>
+                <div class="stat-card alert">
+                    <h3>🚨 WTP 최대값 (Max)</h3>
+                    <div class="value" id="statMax">$0.00</div>
+                </div>
+            </div>
+
+            <canvas id="wtpChart"></canvas>
+            <div class="note">📌 시각화를 위해 상위/하위 1%의 극단값을 제외하고 그렸습니다. 'WTP 최대값' 수치를 통해 폭발 현상을 확인하세요.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Box-Muller 변환을 이용한 정규분포 난수 생성기
+    function randomNormal(mean, stdDev) {
+        let u = 1 - Math.random(); 
+        let v = Math.random();
+        let z = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+        return z * stdDev + mean;
+    }
+
+    // 포맷팅 함수
+    const formatCurrency = (num) => '$' + num.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
+    let chartInstance = null;
+
+    function runSimulation() {
+        // 1. UI에서 파라미터 가져오기
+        const bMean = parseFloat(document.getElementById('betaMean').value);
+        const bStd = parseFloat(document.getElementById('betaStd').value);
+        const lMean = parseFloat(document.getElementById('lambdaMean').value);
+        const lStd = parseFloat(document.getElementById('lambdaStd').value);
+
+        // UI 텍스트 업데이트
+        document.getElementById('betaMeanVal').innerText = bMean.toFixed(1);
+        document.getElementById('betaStdVal').innerText = bStd.toFixed(1);
+        document.getElementById('lambdaMeanVal').innerText = lMean.toFixed(1);
+        document.getElementById('lambdaStdVal').innerText = lStd.toFixed(1);
+
+        // 2. 난수 시뮬레이션 (웹 성능을 위해 5만개로 조정, 충분한 결과 도출)
+        const nDraws = 50000;
+        let wtpDraws = new Float64Array(nDraws);
+        let sum = 0;
+        let max = -Infinity;
+
+        for (let i = 0; i < nDraws; i++) {
+            let beta = randomNormal(bMean, bStd);
+            let lambda = Math.exp(randomNormal(lMean, lStd)); // Lognormal
+            let wtp = beta / lambda;
+            wtpDraws[i] = wtp;
+            sum += wtp;
+            if (wtp > max) max = wtp;
+        }
+
+        // 3. 통계 계산 (정렬 후 중간값 및 백분위수 도출)
+        wtpDraws.sort();
+        const median = wtpDraws[Math.floor(nDraws / 2)];
+        const mean = sum / nDraws;
+        
+        document.getElementById('statMedian').innerText = formatCurrency(median);
+        document.getElementById('statMean').innerText = formatCurrency(mean);
+        document.getElementById('statMax').innerText = formatCurrency(max);
+
+        // 4. 시각화를 위한 극단치 제거 (1% ~ 99%)
+        const lowerBound = wtpDraws[Math.floor(nDraws * 0.01)];
+        const upperBound = wtpDraws[Math.floor(nDraws * 0.99)];
+        
+        let clipped = [];
+        for (let i = 0; i < nDraws; i++) {
+            if (wtpDraws[i] > lowerBound && wtpDraws[i] < upperBound) {
+                clipped.push(wtpDraws[i]);
+            }
+        }
+
+        // 5. 히스토그램 Binning (100개 구간)
+        const bins = 100;
+        const minClip = clipped[0];
+        const maxClip = clipped[clipped.length - 1];
+        const binWidth = (maxClip - minClip) / bins;
+        
+        let binCounts = new Array(bins).fill(0);
+        let binLabels = new Array(bins);
+        
+        for (let i = 0; i < bins; i++) {
+            binLabels[i] = (minClip + (i * binWidth)).toFixed(1);
+        }
+
+        for (let i = 0; i < clipped.length; i++) {
+            let binIndex = Math.floor((clipped[i] - minClip) / binWidth);
+            if (binIndex >= bins) binIndex = bins - 1;
+            binCounts[binIndex]++;
+        }
+
+        // 6. Chart.js 차트 그리기
+        const ctx = document.getElementById('wtpChart').getContext('2d');
+        if (chartInstance) {
+            chartInstance.destroy(); // 기존 차트 초기화
+        }
+
+        chartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: binLabels,
+                datasets: [{
+                    label: 'Frequency',
+                    data: binCounts,
+                    backgroundColor: '#dc3545',
+                    barPercentage: 1.0,
+                    categoryPercentage: 1.0
+                }]
+            },
+            options: {
+                responsive: true,
+                animation: { duration: 300 }, // 슬라이더 조작 시 부드러운 애니메이션
+                scales: {
+                    x: {
+                        title: { display: true, text: 'Willingness to Pay (WTP)' },
+                        ticks: { maxTicksLimit: 10 } // X축 라벨 개수 제한
+                    },
+                    y: {
+                        title: { display: true, text: 'Frequency' },
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+    }
+
+    // 슬라이더 이벤트 리스너 등록
+    document.getElementById('betaMean').addEventListener('input', runSimulation);
+    document.getElementById('betaStd').addEventListener('input', runSimulation);
+    document.getElementById('lambdaMean').addEventListener('input', runSimulation);
+    document.getElementById('lambdaStd').addEventListener('input', runSimulation);
+
+    // 초기 실행
+    runSimulation();
+</script>
+
+</body>
+</html>
