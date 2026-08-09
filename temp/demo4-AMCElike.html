@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Stata AMCE-like Demonstration</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e9ecef; padding: 20px; }
+        .stata-container { max-width: 900px; margin: 0 auto; background: #ffffff; border: 1px solid #ccc; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 5px; overflow: hidden; }
+        
+        /* Stata 윈도우 헤더 느낌 */
+        .stata-header { background: #f0f0f0; border-bottom: 1px solid #ccc; padding: 10px 15px; display: flex; align-items: center; justify-content: space-between; }
+        .stata-header h3 { margin: 0; font-size: 14px; color: #333; font-weight: normal; }
+        .run-btn { background: #0078D7; color: white; border: none; padding: 6px 15px; border-radius: 3px; cursor: pointer; font-size: 13px; font-weight: bold; }
+        .run-btn:hover { background: #005A9E; }
+
+        /* Stata 결과창 느낌 (Courier 폰트 필수) */
+        .stata-results { background: #ffffff; padding: 20px; min-height: 500px; overflow-y: auto; font-family: 'Courier New', Courier, monospace; font-size: 13px; line-height: 1.2; color: #000000; }
+        
+        .output-text { display: none; white-space: pre; } /* 초기에는 숨김 */
+        .typing-cursor::after { content: '▋'; animation: blink 1s step-start infinite; }
+        
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+
+<div class="stata-container">
+    <div class="stata-header">
+        <h3>Stata/SE 19.5 - Results</h3>
+        <button class="run-btn" onclick="runStata()">Execute</button>
+    </div>
+    
+    <div class="stata-results" id="resultsWindow">
+        <!-- 실행 전 대기 화면 -->
+        <span id="prompt">. <span id="typewriter" class="typing-cursor"></span></span>
+        
+        <!-- === 실제 Stata 결과값 === -->
+        <div id="actualOutput" class="output-text">
+. use https://www.stata-press.com/data/r19/evignet, clear
+(Vignet study employer prefs (Inge de Wolf 2000))
+
+. list caseid pref female grades edufit workexp in 1/15
+
+     +-------------------------------------------------------+
+     | caseid   pref   female   grades   edufit      workexp |
+     |-------------------------------------------------------|
+  1. |      1      0       no      A/B      yes         none |
+  2. |      1      0       no      A/B       no         none |
+  3. |      1      0      yes      C/D      yes         none |
+  4. |      1      0       no      C/D       no         none |
+  5. |      1      1       no      A/B      yes   internship |
+     |-------------------------------------------------------|
+  6. |      1      2      yes      A/B      yes     one year |
+  7. |      1      3       no      C/D       no     one year |
+  8. |      1      4       no      A/B      yes     one year |
+  9. |      1      5      yes      A/B       no     one year |
+ 10. |      1      6      yes      A/B      yes   internship |
+     |-------------------------------------------------------|
+ 11. |      2      0      yes      C/D       no         none |
+ 12. |      2      0      yes      A/B       no         none |
+ 13. |      2      0       no      C/D       no     one year |
+ 14. |      2      0      yes      C/D       no   internship |
+ 15. |      2      1       no      A/B      yes     one year |
+     +-------------------------------------------------------+
+
+. generate selected = pref > 0
+
+. regress selected i.female i.grades i.edufit i.workexp, vce(cluster employer)
+
+Linear regression                               Number of obs     =        290
+                                                F(5, 21)          =      14.82
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.2168
+                                                Root MSE          =      .4381
+
+                              (Std. err. adjusted for 22 clusters in employer)
+------------------------------------------------------------------------------
+             |               Robust
+    selected | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+      female |
+        yes  |  -.0306427   .0443601    -0.69   0.497    -.1228945    .0616091
+             |
+      grades |
+        A/B  |   .3014402   .0787344     3.83   0.001     .1377031    .4651773
+             |
+      edufit |
+        yes  |   .1268754   .0468147     2.71   0.013     .0295189    .2242319
+             |
+     workexp |
+ internship  |   .1616582   .1029316     1.57   0.131    -.0523998    .3757161
+   one year  |   .3995878   .1049498     3.81   0.001     .1813328    .6178428
+             |
+       _cons |   .1564982    .096185     1.63   0.119    -.0435295    .3565259
+------------------------------------------------------------------------------
+</div>
+    </div>
+</div>
+
+<script>
+    // 타이핑 효과에 표시될 명령어를 순서대로 정의
+    const codeLines = [
+        "use https://www.stata-press.com/data/r19/evignet, clear", 
+		"list caseid pref female grades edufit workexp in 1/15", 
+		"generate selected = pref > 0", 
+		"regress selected i.female i.grades i.edufit i.workexp, vce(cluster employer)"
+    ];
+    
+    let isRunning = false;
+
+    function runStata() {
+        if (isRunning) return;
+        isRunning = true;
+        
+        const typeWriterEl = document.getElementById('typewriter');
+        const outputEl = document.getElementById('actualOutput');
+        const promptEl = document.getElementById('prompt');
+        
+        typeWriterEl.innerText = "";
+        outputEl.style.display = "none";
+        promptEl.style.display = "inline";
+        typeWriterEl.classList.add('typing-cursor');
+        
+        const fullCommand = codeLines.join(" \n. ");
+        let i = 0;
+        
+        function type() {
+            if (i < fullCommand.length) {
+                typeWriterEl.innerHTML += fullCommand.charAt(i) === '\n' ? '<br>' : fullCommand.charAt(i);
+                i++;
+                setTimeout(type, 15); // 타이핑 속도
+            } else {
+                typeWriterEl.classList.remove('typing-cursor');
+                promptEl.style.display = "none";
+                outputEl.style.display = "block";
+                isRunning = false;
+            }
+        }
+        type();
+    }
+</script>
+
+</body>
+</html>
