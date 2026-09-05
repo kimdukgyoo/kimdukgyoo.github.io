@@ -143,10 +143,10 @@ button:focus-visible{outline:2px solid var(--rail-lt);outline-offset:2px}
   scrollbar-width:none;
 }
 .strip::-webkit-scrollbar{display:none}
-.col{flex:0 0 auto;width:26px;display:flex;flex-direction:column;gap:2px}
+.col{flex:0 0 auto;width:38px;display:flex;flex-direction:column;gap:2px}
 .cell{
   flex:1;border-radius:3px;display:grid;place-items:center;
-  font-family:var(--mono);font-size:11px;font-weight:600;
+  font-family:var(--mono);font-size:10px;font-weight:600;
   background:rgba(244,238,226,.06);color:var(--faint);
 }
 .cell.has{color:var(--cloth)}
@@ -350,13 +350,14 @@ input:focus{outline:none;border-color:var(--rail-lt)}
 <div class="veil" id="veilSetup" hidden>
   <div class="sheet" role="dialog" aria-modal="true" aria-label="게임 설정">
     <h2>게임 설정</h2>
-    <p class="sub">이름과 다마 수를 정하세요. 공격에 성공하면 남은 다마가 1 줄고, 상대 수구를 맞히면 1 늘어납니다. 저장하면 새 게임이 시작됩니다.</p>
+    <p class="sub">이름, 다마 수와 마무리 3쿠션 개수를 정하세요. 공격에 성공하면 남은 다마가 1 줄고, 상대 수구를 맞히면 1 늘어납니다. 남은 다마를 모두 없앤 뒤 설정한 횟수만큼 3쿠션을 성공해야 게임이 끝납니다. 저장하면 새 게임이 시작됩니다.</p>
 
     <div class="fset">
       <div class="lg"><span class="ball white"></span>흰 공</div>
       <div class="frow">
         <label class="fld"><span>이름</span><input type="text" id="f_name0" maxlength="10" placeholder="플레이어 1"></label>
         <label class="fld num"><span>다마 수</span><input type="number" id="f_tg0" min="1" max="999" inputmode="numeric"></label>
+        <label class="fld num"><span>마무리 3C</span><input type="number" id="f_3c0" min="1" max="9" inputmode="numeric"></label>
       </div>
     </div>
 
@@ -365,6 +366,7 @@ input:focus{outline:none;border-color:var(--rail-lt)}
       <div class="frow">
         <label class="fld"><span>이름</span><input type="text" id="f_name1" maxlength="10" placeholder="플레이어 2"></label>
         <label class="fld num"><span>다마 수</span><input type="number" id="f_tg1" min="1" max="999" inputmode="numeric"></label>
+        <label class="fld num"><span>마무리 3C</span><input type="number" id="f_3c1" min="1" max="9" inputmode="numeric"></label>
       </div>
     </div>
 
@@ -428,15 +430,23 @@ var S, history=[];
 
 function fresh(cfg){
   cfg=cfg||{};
-  var p=cfg.p||[{name:"플레이어 1",target:20},{name:"플레이어 2",target:20}];
+  var p=cfg.p||[
+    {name:"플레이어 1",target:20,finishTarget:1},
+    {name:"플레이어 2",target:20,finishTarget:1}
+  ];
+  function fp(x, fallbackName){
+    return {
+      name:x.name||fallbackName,
+      target:Math.max(1,parseInt(x.target,10)||20),
+      finishTarget:Math.max(1,parseInt(x.finishTarget,10)||1),
+      score:0, finishScore:0, innings:0, high:0
+    };
+  }
   return {
-    p:[
-      {name:p[0].name,target:p[0].target,score:0,innings:0,high:0},
-      {name:p[1].name,target:p[1].target,score:0,innings:0,high:0}
-    ],
+    p:[fp(p[0],"플레이어 1"),fp(p[1],"플레이어 2")],
     starter:cfg.starter||0,
     turn:cfg.starter||0,
-    run:0, inning:1, log:[], done:false, winner:null,
+    run:0, run3c:0, inning:1, log:[], done:false, winner:null,
     wake:!!cfg.wake
   };
 }
@@ -448,7 +458,36 @@ function load(){
     var raw=localStorage.getItem(KEY);
     if(!raw) return null;
     var o=JSON.parse(raw);
-    if(o&&o.p&&o.p.length===2&&typeof o.turn==="number") return o;
+    if(o&&o.p&&o.p.length===2&&typeof o.turn==="number"){
+      var hadSeparated3c = o.p.some(function(x){return typeof x.finishScore==="number" || typeof x.finishTarget==="number";});
+      for(var i=0;i<2;i++){
+        var pi=o.p[i];
+        pi.finishTarget=Math.max(1,parseInt(pi.finishTarget,10)||1);
+        pi.finishScore=Math.max(0,parseInt(pi.finishScore,10)||0);
+
+        // 직전 버전은 마지막 3C를 일반 score에 +1로 넣었으므로 분리한다.
+        if(!hadSeparated3c && pi.score>pi.target){
+          pi.finishScore=Math.min(pi.finishTarget,pi.score-pi.target);
+          pi.score=pi.target;
+        }
+      }
+      if(typeof o.run3c!=="number") o.run3c=0;
+
+      // 최초 버전에서 다마 소진 즉시 종료된 저장 상태는 마지막 3C 단계로 복구한다.
+      if(o.done && o.winner!==null && o.winner!==undefined){
+        var w=o.winner, wp=o.p[w];
+        if(wp && wp.score===wp.target && wp.finishScore<wp.finishTarget){
+          var last=o.log && o.log.length ? o.log[o.log.length-1] : null;
+          if(last && last.p===w && !last.finish3c){
+            o.log.pop();
+            wp.innings=Math.max(0,(wp.innings||0)-1);
+            o.run=Math.max(0,last.pts||0);
+          }
+          o.done=false; o.winner=null; o.turn=w;
+        }
+      }
+      return o;
+    }
   }catch(e){}
   return null;
 }
@@ -470,33 +509,63 @@ function attempts(i){
 }
 function avg(i){
   var a=attempts(i);
+  // 마무리 3C는 일반 4구 점수와 분리해 애버리지에는 포함하지 않는다.
   return a>0 ? (S.p[i].score/a).toFixed(3) : "0.000";
+}
+function targetText(p){
+  return p.target+"+3C"+(p.finishTarget>1?"×"+p.finishTarget:"");
+}
+function scoreText(p){
+  var s=String(p.score);
+  if(p.finishScore>0) s+="+3C"+(p.finishScore>1?"×"+p.finishScore:"");
+  return s;
+}
+function runText(){
+  var parts=[];
+  if(S.run!==0) parts.push((S.run>0?"+":"")+S.run);
+  if(S.run3c>0) parts.push("3C"+(S.run3c>1?"×"+S.run3c:""));
+  return parts.join(" + ");
+}
+function logText(rec){
+  var parts=[];
+  if(rec.pts!==0) parts.push(String(rec.pts));
+  if(rec.c3>0) parts.push("3C"+(rec.c3>1?"×"+rec.c3:""));
+  return parts.length?parts.join("+"):"0";
 }
 
 function addPoint(){
   if(S.done) return;
   snap();
-  var t=S.turn;
-  S.p[t].score++; S.run++;
-  if(S.run>S.p[t].high) S.p[t].high=S.run;
-  if(S.p[t].score>=S.p[t].target){
-    S.p[t].innings++;
-    S.log.push({i:S.inning,p:t,pts:S.run});
-    S.run=0; S.done=true; S.winner=t;
-    render(); save(); showWin(); return;
+  var t=S.turn, p=S.p[t];
+
+  if(p.score<p.target){
+    p.score++; S.run++;
+    if(S.run>p.high) p.high=S.run;
+  }else{
+    // 다마를 모두 소진한 뒤에는 일반 점수 대신 마무리 3C를 별도 카운트한다.
+    p.finishScore++; S.run3c++;
+    if(p.finishScore>=p.finishTarget){
+      p.finishScore=p.finishTarget;
+      p.innings++;
+      S.log.push({i:S.inning,p:t,pts:S.run,c3:S.run3c,finish3c:true});
+      S.run=0; S.run3c=0; S.done=true; S.winner=t;
+      render(); save(); showWin(); return;
+    }
   }
   render(); save();
 }
 function endTurn(foul){
   if(S.done) return;
+  var t=S.turn, p=S.p[t];
+  // 일반 다마를 모두 소진한 마무리 3C 단계에서는 실점을 적용하지 않는다.
+  if(foul && p.score>=p.target) return;
   snap();
-  var t=S.turn;
   var deduct=foul?1:0;
-  S.p[t].score-=deduct;
+  p.score-=deduct;
   var pts=S.run-deduct;
-  S.p[t].innings++;
-  S.log.push({i:S.inning,p:t,pts:pts,foul:!!foul});
-  S.run=0;
+  p.innings++;
+  S.log.push({i:S.inning,p:t,pts:pts,c3:S.run3c,foul:!!foul});
+  S.run=0; S.run3c=0;
   var second=1-S.starter;
   if(t===second) S.inning++;
   S.turn=1-t;
@@ -508,33 +577,41 @@ function render(){
   var t=S.turn;
   document.documentElement.style.setProperty("--accent", t===0?"var(--white-ball)":"var(--yellow-ball)");
   for(var i=0;i<2;i++){
-    var rem=S.p[i].target-S.p[i].score;
+    var p=S.p[i];
+    var rem=p.target-p.score;
+    var inFinish=rem<=0;
+    var rem3c=Math.max(0,p.finishTarget-p.finishScore);
     $("card"+i).classList.toggle("on", !S.done && S.turn===i);
-    $("name"+i).textContent=S.p[i].name;
-    $("tg"+i).textContent=S.p[i].target+"다마";
-    $("rem"+i).textContent=rem;
-    $("rem"+i).classList.toggle("over", rem>S.p[i].target);
-    $("pt"+i).textContent=S.p[i].score;
+    $("name"+i).textContent=p.name;
+    $("tg"+i).textContent=targetText(p);
+    $("rem"+i).textContent=inFinish?rem3c:Math.max(0,rem);
+    $("rem"+i).previousElementSibling.textContent=inFinish?"남은 3C":"남은 다마";
+    $("rem"+i).classList.toggle("over", rem>p.target);
+    $("pt"+i).textContent=scoreText(p);
     $("avg"+i).textContent=avg(i);
-    $("hr"+i).textContent=S.p[i].high;
-    $("in"+i).textContent=S.p[i].innings;
+    $("hr"+i).textContent=p.high;
+    $("in"+i).textContent=p.innings;
     var r=$("run"+i);
-    if(!S.done && S.turn===i && S.run>0){ r.hidden=false; r.textContent="이번 차례 "+S.run+"개"; }
-    else r.hidden=true;
+    if(!S.done && S.turn===i && (S.run!==0 || S.run3c>0)){
+      r.hidden=false; r.textContent="이번 차례 "+runText();
+    }else r.hidden=true;
   }
   $("inningNo").textContent=S.inning;
   $("pointWho").textContent=S.done?"":S.p[t].name;
+  var pointLabel=$("btnPoint").firstChild;
+  if(pointLabel) pointLabel.nodeValue=(!S.done && S.p[t].score>=S.p[t].target)?"3쿠션 성공 ":"득점 ";
   $("btnPoint").disabled=S.done;
   $("btnMiss").disabled=S.done;
-  $("btnFoul").disabled=S.done;
+  // 일반 다마가 남아 있을 때만 실점 +1을 사용할 수 있다.
+  $("btnFoul").disabled=S.done || S.p[t].score>=S.p[t].target;
   $("btnUndo").disabled=history.length===0;
   drawStrip();
 }
 
 function drawStrip(){
   var el=$("strip"); el.innerHTML="";
-  var maxI=S.done?S.inning:S.inning;
-  if(!S.log.length && S.run===0 && S.inning===1){
+  var maxI=S.inning;
+  if(!S.log.length && S.run===0 && S.run3c===0 && S.inning===1){
     var e=document.createElement("div");
     e.className="strip-empty";
     e.textContent="이닝별 득점이 여기에 쌓입니다";
@@ -549,12 +626,13 @@ function drawStrip(){
       for(var j=0;j<S.log.length;j++){ if(S.log[j].i===n && S.log[j].p===pi){ rec=S.log[j]; break; } }
       var c=document.createElement("div"); c.className="cell";
       if(rec){
-        c.classList.add(rec.pts>0?"has":"zero", pi===0?"white":"yellow");
-        if(rec.pts<0) c.className="cell minus";
-        c.textContent=rec.pts;
+        var positive=rec.pts>0 || (rec.c3||0)>0;
+        c.classList.add(positive?"has":"zero", pi===0?"white":"yellow");
+        if(rec.pts<0 && !(rec.c3>0)) c.className="cell minus";
+        c.textContent=logText({pts:rec.pts||0,c3:rec.c3||0});
       }else if(!S.done && S.turn===pi && n===S.inning){
         c.classList.add("live");
-        c.textContent=S.run>0?S.run:"·";
+        c.textContent=(S.run!==0 || S.run3c>0)?logText({pts:S.run,c3:S.run3c}):"·";
       }else{
         c.textContent="";
       }
@@ -568,26 +646,31 @@ function drawStrip(){
 }
 
 function statTable(target){
-  var rows="<tr><th>선수</th><th>남은 다마</th><th>친 점수</th><th>이닝</th><th>애버리지</th></tr>";
+  var rows="<tr><th>선수</th><th>남은 다마</th><th>3C</th><th>친 점수</th><th>이닝</th><th>애버리지</th></tr>";
   for(var i=0;i<2;i++){
+    var p=S.p[i];
     rows+="<tr><td><span class='bd' style='background:"+(i===0?"#F4EEE2":"#F0BE3C")+"'></span>"
-      +esc(S.p[i].name)+"</td><td>"+(S.p[i].target-S.p[i].score)+"</td><td>"+S.p[i].score
-      +"</td><td>"+S.p[i].innings+"</td><td>"+avg(i)+"</td></tr>";
+      +esc(p.name)+"</td><td>"+Math.max(0,p.target-p.score)+"</td><td>"+p.finishScore+"/"+p.finishTarget
+      +"</td><td>"+esc(scoreText(p))+"</td><td>"+p.innings+"</td><td>"+avg(i)+"</td></tr>";
   }
   target.innerHTML=rows;
 }
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]})}
+function esc(s){return String(s).replace(/[&<>\"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'\"':"&quot;"})[c]})}
 
 function showWin(){
-  var w=S.winner, l=1-w;
+  var w=S.winner, l=1-w, lp=S.p[l];
   $("winName").textContent=S.p[w].name;
-  $("winFin").innerHTML="<b>"+(S.p[l].target-S.p[l].score)+"</b>다마 남기고 승리";
+  if(lp.score<lp.target){
+    $("winFin").innerHTML="<b>"+(lp.target-lp.score)+"</b>다마 남기고 승리";
+  }else{
+    $("winFin").innerHTML="<b>"+Math.max(0,lp.finishTarget-lp.finishScore)+"</b>개의 3C 남기고 승리";
+  }
   statTable($("winTable"));
   $("veilWin").hidden=false;
 }
 function showRecord(){
   var n=S.log.length;
-  $("recSub").textContent = n? (S.inning-(S.done?0:0))+"이닝 진행, 총 "+n+"번의 차례가 끝났습니다."
+  $("recSub").textContent = n? S.inning+"이닝 진행, 총 "+n+"번의 차례가 끝났습니다."
                              : "아직 끝난 차례가 없습니다.";
   statTable($("recTable"));
   $("veilRecord").hidden=false;
@@ -596,8 +679,8 @@ function showRecord(){
 /* ── 설정 ── */
 var setupStarter=0;
 function openSetup(){
-  $("f_name0").value=S.p[0].name; $("f_tg0").value=S.p[0].target;
-  $("f_name1").value=S.p[1].name; $("f_tg1").value=S.p[1].target;
+  $("f_name0").value=S.p[0].name; $("f_tg0").value=S.p[0].target; $("f_3c0").value=S.p[0].finishTarget;
+  $("f_name1").value=S.p[1].name; $("f_tg1").value=S.p[1].target; $("f_3c1").value=S.p[1].finishTarget;
   $("f_wake").checked=S.wake;
   setupStarter=S.starter; paintSeg();
   $("veilSetup").hidden=false;
@@ -611,15 +694,21 @@ function saveSetup(){
   var n1=($("f_name1").value||"").trim()||"플레이어 2";
   var t0=Math.max(1,Math.min(999,parseInt($("f_tg0").value,10)||20));
   var t1=Math.max(1,Math.min(999,parseInt($("f_tg1").value,10)||20));
-  S=fresh({p:[{name:n0,target:t0},{name:n1,target:t1}],starter:+setupStarter,
-           wake:$("f_wake").checked});
+  var c0=Math.max(1,Math.min(9,parseInt($("f_3c0").value,10)||1));
+  var c1=Math.max(1,Math.min(9,parseInt($("f_3c1").value,10)||1));
+  S=fresh({p:[
+    {name:n0,target:t0,finishTarget:c0},
+    {name:n1,target:t1,finishTarget:c1}
+  ],starter:+setupStarter,wake:$("f_wake").checked});
   history=[];
   $("veilSetup").hidden=true; $("veilWin").hidden=true;
   applyWake(); render(); save();
 }
 function newGame(){
-  S=fresh({p:[{name:S.p[0].name,target:S.p[0].target},{name:S.p[1].name,target:S.p[1].target}],
-           starter:S.starter, wake:S.wake});
+  S=fresh({p:[
+    {name:S.p[0].name,target:S.p[0].target,finishTarget:S.p[0].finishTarget},
+    {name:S.p[1].name,target:S.p[1].target,finishTarget:S.p[1].finishTarget}
+  ],starter:S.starter,wake:S.wake});
   history=[];
   $("veilWin").hidden=true;
   render(); save();
@@ -655,6 +744,11 @@ $("setupCancel").addEventListener("click",function(){$("veilSetup").hidden=true}
 $("setupSave").addEventListener("click",saveSetup);
 $("recClose").addEventListener("click",function(){$("veilRecord").hidden=true});
 $("winContinue").addEventListener("click",function(){
+  var w=S.winner;
+  if(w!==null && w!==undefined){
+    S.p[w].finishScore=Math.max(0,S.p[w].finishTarget-1);
+    S.turn=w;
+  }
   S.done=false; S.winner=null; $("veilWin").hidden=true; render(); save();
 });
 $("winNew").addEventListener("click",newGame);
