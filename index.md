@@ -48,6 +48,7 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>, resubmitted to the _Journal of Institutional and Theoretical Economics_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank">Does Honesty Respond to Unrelated Luck?</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/positiveselection.pdf" target="_blank">Unveiling the Failure of Positive Selection</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
+* <a href="https://kimdukgyoo.github.io/PDFfiles/NationAsIdentity.pdf" target="_blank">The Nation as Identity of Last Resort</a>
 * <a href="https://kimdukgyoo.github.io/PDFfiles/CoinStrategyandCharitableGiving.pdf" target="_blank"> The Coin Strategy and Charitable Giving</a>
 
 <!--
