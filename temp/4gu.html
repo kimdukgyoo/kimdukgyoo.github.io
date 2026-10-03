@@ -209,6 +209,7 @@ button:focus-visible{outline:2px solid var(--rail-lt);outline-offset:2px}
 }
 @keyframes up{from{transform:translateY(18px);opacity:0}to{transform:none;opacity:1}}
 .sheet h2{font-size:17px;font-weight:700;margin-bottom:2px}
+.sheet h3{font-size:14px;font-weight:700;margin:22px 0 8px;color:var(--rail-lt);letter-spacing:-.01em}
 .sheet .sub{font-size:13px;color:var(--dim);margin-bottom:18px;line-height:1.5}
 .fset{border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px}
 .fset .lg{
@@ -259,6 +260,7 @@ input:focus{outline:none;border-color:var(--rail-lt)}
   display:flex;align-items:baseline;justify-content:center;gap:7px;
 }
 .win .fin b{font-size:44px;font-weight:700;color:var(--ink);letter-spacing:-.03em}
+.db-msg{font-family:var(--mono);font-size:11px;color:var(--rail-lt);margin:-10px 0 14px}
 .tbl{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px}
 .tbl th{
   font-size:10px;letter-spacing:.12em;color:var(--faint);font-weight:500;
@@ -268,6 +270,26 @@ input:focus{outline:none;border-color:var(--rail-lt)}
 .tbl td{padding:8px 0;border-top:1px solid var(--line);text-align:right}
 .tbl td:first-child{text-align:left;font-family:var(--sans);font-size:14px}
 .tbl .bd{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:baseline}
+
+/* 최근 5게임 전적 리스트 */
+.db-list{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.db-item{
+  border:1px solid var(--line);border-radius:12px;padding:10px 12px;
+  background:rgba(11,39,35,.55);font-size:12px;
+}
+.db-head{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;color:var(--dim);margin-bottom:6px;
+}
+.db-head .w-badge{
+  color:var(--yellow-ball);font-weight:700;font-family:var(--sans);
+}
+.db-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:3px 0;font-family:var(--mono);color:var(--dim);
+}
+.db-row .p-name{font-family:var(--sans);font-size:13px;color:var(--ink);font-weight:600}
+.db-empty{font-size:12px;color:var(--faint);padding:8px 0}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media (max-height:620px){
@@ -396,9 +418,15 @@ input:focus{outline:none;border-color:var(--rail-lt)}
 <!-- 기록 -->
 <div class="veil" id="veilRecord" hidden>
   <div class="sheet" role="dialog" aria-modal="true" aria-label="기록">
-    <h2>기록</h2>
+    <h2>현재 게임 현황</h2>
     <p class="sub" id="recSub">아직 기록이 없습니다.</p>
     <table class="tbl" id="recTable"></table>
+
+    <h3>최근 5게임 전적 (DB)</h3>
+    <div class="db-list" id="dbRecentList">
+      <div class="db-empty">불러오는 중...</div>
+    </div>
+
     <div class="sheet-actions">
       <button class="btn btn-ghost" id="recClose">닫기</button>
     </div>
@@ -412,6 +440,7 @@ input:focus{outline:none;border-color:var(--rail-lt)}
       <div class="eyebrow">게임 종료</div>
       <h2 id="winName">—</h2>
       <div class="fin" id="winFin">—</div>
+      <div class="db-msg" id="dbSaveStatus"></div>
     </div>
     <table class="tbl" id="winTable"></table>
     <div class="sheet-actions">
@@ -421,12 +450,104 @@ input:focus{outline:none;border-color:var(--rail-lt)}
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 (function(){
 "use strict";
 var KEY="fourball.v2";
 var $=function(id){return document.getElementById(id)};
 var S, history=[];
+
+/* ── Supabase 연동 설정 ── */
+var SUPABASE_URL = "https://ruyertxiyzjovkucwwwv.supabase.co";
+var SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1eWVydHhpeXpqb3ZrdWN3d3d2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMjYzMzcsImV4cCI6MjEwNjYwMjMzN30.eDFUD30EjahV-Oysy0mfNkyHAeCN8Xs5Xd1N17HlpK8";
+var sb = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY) : null;
+
+function saveGameToDB(){
+  if(!sb || !S || !S.done || S.dbSaved) return;
+  S.dbSaved = true;
+  save();
+  var statusEl = $("dbSaveStatus");
+  if(statusEl) statusEl.textContent = "DB에 결과를 기록하는 중...";
+
+  var w = S.winner;
+  var payload = {
+    winner: S.p[w] ? S.p[w].name : "",
+    p1_name: S.p[0].name,
+    p1_target: S.p[0].target,
+    p1_score: S.p[0].score,
+    p1_avg: parseFloat(avg(0)),
+    p1_highrun: S.p[0].high,
+    p1_innings: S.p[0].innings,
+    p2_name: S.p[1].name,
+    p2_target: S.p[1].target,
+    p2_score: S.p[1].score,
+    p2_avg: parseFloat(avg(1)),
+    p2_highrun: S.p[1].high,
+    p2_innings: S.p[1].innings
+  };
+
+  sb.from("games_4gu").insert([payload]).then(function(res){
+    if(res.error){
+      console.error("DB 저장 실패:", res.error);
+      S.dbSaved = false;
+      save();
+      if(statusEl) statusEl.textContent = "DB 저장 실패 (" + res.error.message + ")";
+    }else{
+      if(statusEl) statusEl.textContent = "✓ DB에 자동 기록되었습니다";
+    }
+  }).catch(function(err){
+    console.error("DB 저장 오류:", err);
+    S.dbSaved = false;
+    save();
+    if(statusEl) statusEl.textContent = "DB 연결 오류";
+  });
+}
+
+function loadRecentGames(){
+  var box = $("dbRecentList");
+  if(!box) return;
+  if(!sb){
+    box.innerHTML = "<div class='db-empty'>DB 연결 도구를 불러오지 못했습니다.</div>";
+    return;
+  }
+  box.innerHTML = "<div class='db-empty'>불러오는 중...</div>";
+  sb.from("games_4gu")
+    .select("*")
+    .order("played_at", { ascending: false })
+    .limit(5)
+    .then(function(res){
+      if(res.error){
+        box.innerHTML = "<div class='db-empty'>기록 조회 실패: " + esc(res.error.message) + "</div>";
+        return;
+      }
+      var data = res.data || [];
+      if(!data.length){
+        box.innerHTML = "<div class='db-empty'>아직 DB에 저장된 게임 전적이 없습니다.</div>";
+        return;
+      }
+      var html = "";
+      for(var i=0; i<data.length; i++){
+        var g = data[i];
+        var dt = new Date(g.played_at);
+        var dateStr = isNaN(dt.getTime()) ? "" :
+          (dt.getMonth()+1) + "/" + dt.getDate() + " " +
+          String(dt.getHours()).padStart(2,"0") + ":" + String(dt.getMinutes()).padStart(2,"0");
+        var p1Avg = Number(g.p1_avg||0).toFixed(3);
+        var p2Avg = Number(g.p2_avg||0).toFixed(3);
+        html += "<div class='db-item'>"
+          + "<div class='db-head'><span>" + esc(dateStr) + "</span><span class='w-badge'>🏆 " + esc(g.winner||"-") + " 승</span></div>"
+          + "<div class='db-row'><span class='p-name'><span class='bd' style='background:#F4EEE2'></span>" + esc(g.p1_name) + " (" + g.p1_target + ")</span>"
+          + "<span>" + g.p1_score + "점 · " + g.p1_innings + "이닝 · HR " + g.p1_highrun + " · " + p1Avg + "</span></div>"
+          + "<div class='db-row'><span class='p-name'><span class='bd' style='background:#F0BE3C'></span>" + esc(g.p2_name) + " (" + g.p2_target + ")</span>"
+          + "<span>" + g.p2_score + "점 · " + g.p2_innings + "이닝 · HR " + g.p2_highrun + " · " + p2Avg + "</span></div>"
+          + "</div>";
+      }
+      box.innerHTML = html;
+    }).catch(function(){
+      box.innerHTML = "<div class='db-empty'>기록을 불러오는 중 오류가 발생했습니다.</div>";
+    });
+}
 
 function fresh(cfg){
   cfg=cfg||{};
@@ -446,7 +567,7 @@ function fresh(cfg){
     p:[fp(p[0],"플레이어 1"),fp(p[1],"플레이어 2")],
     starter:cfg.starter||0,
     turn:cfg.starter||0,
-    run:0, run3c:0, inning:1, log:[], done:false, winner:null,
+    run:0, run3c:0, inning:1, log:[], done:false, winner:null, dbSaved:false,
     wake:!!cfg.wake
   };
 }
@@ -549,7 +670,7 @@ function addPoint(){
       p.innings++;
       S.log.push({i:S.inning,p:t,pts:S.run,c3:S.run3c,finish3c:true});
       S.run=0; S.run3c=0; S.done=true; S.winner=t;
-      render(); save(); showWin(); return;
+      render(); save(); showWin(); saveGameToDB(); return;
     }
   }
   render(); save();
@@ -655,7 +776,7 @@ function statTable(target){
   }
   target.innerHTML=rows;
 }
-function esc(s){return String(s).replace(/[&<>\"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'\"':"&quot;"})[c]})}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]})}
 
 function showWin(){
   var w=S.winner, l=1-w, lp=S.p[l];
@@ -674,6 +795,7 @@ function showRecord(){
                              : "아직 끝난 차례가 없습니다.";
   statTable($("recTable"));
   $("veilRecord").hidden=false;
+  loadRecentGames();
 }
 
 /* ── 설정 ── */
@@ -749,7 +871,7 @@ $("winContinue").addEventListener("click",function(){
     S.p[w].finishScore=Math.max(0,S.p[w].finishTarget-1);
     S.turn=w;
   }
-  S.done=false; S.winner=null; $("veilWin").hidden=true; render(); save();
+  S.done=false; S.winner=null; S.dbSaved=false; $("veilWin").hidden=true; render(); save();
 });
 $("winNew").addEventListener("click",newGame);
 $("segStarter").addEventListener("click",function(e){
