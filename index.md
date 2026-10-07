@@ -17,6 +17,7 @@ I usually go by 'Duk,' by pronouncing 'DOOK' quickly. Want to enunciate my first
 -->
 
 ## Publications
+1. <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>, accepted, _Journal of Institutional and Theoretical Economics_
 1. <a href="https://es.re.kr/jetem/view.php?year=&month=&vol=&no=&article_idx=499" target="_blank">Grant Lottery: Why Funding Agencies May Rationally Introduce Randomness</a>, _Journal of Economic Theory and Econometrics_, 2026, Vol.37, No.2, 89-108. <a href="https://kimdukgyoo.github.io/PDFfiles/GrantLottery.pdf" target="_blank">[Latest working paper]</a>
 1. <a href="https://doi.org/10.1016/j.jet.2026.106190" target="_blank">Positive and Negative Selection in Bargaining</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>), _Journal of Economic Theory_, 2026, Volume 235, 106190. <a href="https://kimdukgyoo.github.io/PDFfiles/PosNegSelection.pdf" target="_blank">[Latest working paper]</a>
 1. <a href="https://doi.org/10.1016/j.eap.2026.03.033" target="_blank">Public Demand and Financial Implications for Retail CBDC: A Randomized Survey Experiment</a> (with <a href="https://sites.google.com/view/ohik-kwon" target="_blank">Ohik Kwon</a> and <a href="https://sites.google.com/ucdavis.edu/seungduck-lee" target="_blank">Seungduck Lee</a>), _Economic Analysis and Policy_, 2026, Vol.91, 632--646. <a href="https://kimdukgyoo.github.io/PDFfiles/CBDCsurvey.pdf" target="_blank">[Latest working paper]</a>
@@ -45,7 +46,6 @@ Volume 55, No.1, 38--73. <a href="https://kimdukgyoo.github.io/PDFfiles/MBContes
 
 ## Working Papers
 * <a href="https://kimdukgyoo.github.io/PDFfiles/SGLPT.pdf" target="_blank">Experience in the Same-Gender Environments and Low-Promotability Tasks</a> (with <a href="https://sites.google.com/view/mchoi" target="_blank">Minseo Choi</a> and <a href="https://sites.google.com/site/jungseeun/" target="_blank">SeEun Jung</a>)
-* <a href="https://kimdukgyoo.github.io/PDFfiles/CitizenLottery.pdf" target="_blank">Good-Citizen Lottery</a>, resubmitted to the _Journal of Institutional and Theoretical Economics_
 * <a href="https://kimdukgyoo.github.io/PDFfiles/LuckLying.pdf" target="_blank">Does Honesty Respond to Unrelated Luck?</a> (with <a href="https://sites.google.com/view/franziskaheinicke/research?authuser=0" target="_blank">Franziska Heinicke</a> and <a href="https://sites.google.com/site/diogogeraldes/research" target="_blank">Diogo Geraldes</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/positiveselection.pdf" target="_blank">Unveiling the Failure of Positive Selection</a> (with <a href="https://sites.google.com/site/dongkyuchang/" target="_blank">Dongkyu Chang</a> and <a href="http://wooyoung.people.ust.hk/" target="_blank">Wooyoung Lim</a>)
 * <a href="https://kimdukgyoo.github.io/PDFfiles/NationAsIdentity.pdf" target="_blank">The Nation as Identity of Last Resort</a>
