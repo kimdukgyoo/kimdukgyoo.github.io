@@ -1,0 +1,16 @@
+name: Supabase Keep-Alive
+
+on:
+  schedule:
+    - cron: "0 0 */3 * *"  # 3일에 한 번씩 자정에 자동으로 실행
+  workflow_dispatch:       # 테스트를 위해 수동으로 실행할 수 있는 버튼 추가
+
+jobs:
+  ping-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DB 데이터 1개 조회하기 (Ping)
+        run: |
+          curl -X GET "https://ruyertxiyzjovkucwwwv.supabase.co/rest/v1/games_4gu?select=id&limit=1" \
+          -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1eWVydHhpeXpqb3ZrdWN3d3d2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMjYzMzcsImV4cCI6MjEwNjYwMjMzN30.eDFUD30EjahV-Oysy0mfNkyHAeCN8Xs5Xd1N17HlpK8" \
+          -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1eWVydHhpeXpqb3ZrdWN3d3d2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMjYzMzcsImV4cCI6MjEwNjYwMjMzN30.eDFUD30EjahV-Oysy0mfNkyHAeCN8Xs5Xd1N17HlpK8"
