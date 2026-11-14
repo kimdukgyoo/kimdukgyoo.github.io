@@ -1,0 +1,21 @@
+name: Check 4gu database
+
+on:
+  schedule:
+    - cron: '17 11,23 * * *' # UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read one game timestamp
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          curl --fail --silent --show-error --max-time 20 \
+            --header "apikey: ${SUPABASE_ANON_KEY}" \
+            --output /dev/null \
+            --write-out 'Supabase HTTP %{http_code}\n' \
+            "${SUPABASE_URL}/rest/v1/games_4gu?select=played_at&order=played_at.desc&limit=1"
