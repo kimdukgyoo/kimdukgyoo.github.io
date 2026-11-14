@@ -2,7 +2,7 @@ name: Check 4gu database
 
 on:
   schedule:
-    - cron: '17 11,23 * * *' # UTC
+    - cron: '17 2,6,10,14,22 * * *' # UTC
   workflow_dispatch:
 
 jobs:
