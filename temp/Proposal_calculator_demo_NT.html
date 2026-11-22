@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>정책안 계산기 — 설명 시연용</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#f4f6f8;--panel:#fff;--surface:#f8fafc;--text:#1f2937;
+  --muted:#5f6b7a;--border:#d6dce5;--accent:#2563eb;--accentSoft:#eaf1ff;
+  --danger:#b42318;--red:#b91c1c;--green:#15803d;--blue:#1d4ed8
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#111827;--panel:#1f2937;--surface:#111827;--text:#f3f4f6;
+    --muted:#c1c8d2;--border:#4b5563;--accent:#60a5fa;--accentSoft:#172554;
+    --danger:#fca5a5;--red:#f87171;--green:#4ade80;--blue:#60a5fa
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;padding:24px;font-family:Arial,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text)}
+button,input,select{font:inherit}
+.container{max-width:1050px;margin:0 auto}
+.panel{padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:14px}
+h1{margin:0 0 10px;font-size:27px}
+h2{margin:0 0 12px;font-size:20px}
+.description,.note{color:var(--muted);line-height:1.65}
+.preview{margin:18px 0;padding:12px 14px;border-left:4px solid var(--accent);background:var(--accentSoft);line-height:1.55}
+.role-row{display:grid;grid-template-columns:minmax(220px,1fr) repeat(3,1fr);gap:12px;margin:20px 0}
+.control-box,.metric-box,.input-card,.result-card,.payoff-card{border:1px solid var(--border);border-radius:10px;background:var(--surface)}
+.control-box,.metric-box{padding:14px}
+.metric-box{text-align:center}
+.label{display:block;margin-bottom:7px;color:var(--muted);font-size:14px}
+.metric{font-size:21px;font-weight:700}
+select,input[type=number]{width:100%;padding:10px;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:8px}
+.policy{display:grid;grid-template-columns:minmax(300px,1fr) 180px;gap:26px;align-items:center;margin-top:24px;padding:18px;border:1px solid var(--border);border-radius:12px}
+.slider-heading{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px;align-items:center}
+.chip{display:inline-block;min-width:65px;padding:5px 9px;text-align:center;font-weight:700;border:1px solid var(--border);border-radius:7px;background:var(--panel)}
+input[type=range]{width:100%}
+.range-labels{display:flex;justify-content:space-between;margin-top:5px;color:var(--muted);font-size:14px}
+.prob-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.prob{padding:13px;border:1px solid var(--border);border-radius:9px;text-align:center;background:var(--surface)}
+.vertical{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:310px}
+.vertical-track{height:230px;width:74px;display:flex;align-items:center;justify-content:center}
+#alphaSlider{width:205px;transform:rotate(-90deg)}
+.end{color:var(--muted);font-size:14px}
+.assumption{margin-top:24px;padding:18px;border:1px solid var(--border);border-radius:12px}
+.assumption-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px}
+.input-card{padding:15px}
+.input-title{display:block;margin-bottom:8px;font-weight:700}
+.input-help{min-height:42px;margin-top:8px;color:var(--muted);font-size:14px;line-height:1.45}
+.status{margin-top:15px;padding:12px;border-radius:8px;background:var(--surface);color:var(--muted);line-height:1.5}
+.status.error{color:var(--danger);border:1px solid var(--danger)}
+.results{margin-top:24px}
+.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.result-card{overflow:hidden}
+.result-header{padding:13px 15px;border-bottom:1px solid var(--border);font-weight:700}
+.red{color:var(--red)}
+.blue{color:var(--blue)}
+.result-list{margin:0;padding:0;list-style:none}
+.result-list li{display:flex;justify-content:space-between;gap:16px;padding:11px 15px;border-bottom:1px solid var(--border)}
+.result-list li:last-child{border-bottom:0}
+.result-list span:first-child{color:var(--muted)}
+.result-list strong{text-align:right}
+.payoff-grid{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:14px;margin-top:18px}
+.payoff-card{padding:16px;text-align:center;border-width:2px}
+.payoff-value{margin-top:8px;font-size:25px;font-weight:700}
+.expected{border-color:var(--accent);background:var(--accentSoft)}
+.formula,.feedback{margin-top:22px;padding:16px;line-height:1.7}
+.formula{border-left:4px solid var(--accent);background:var(--surface)}
+.feedback{border:1px dashed var(--border);border-radius:10px;color:var(--muted)}
+.button-row{display:flex;justify-content:flex-end;margin-top:18px}
+.reset{padding:9px 14px;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:8px;cursor:pointer}
+.reset:hover{background:var(--surface)}
+@media(max-width:780px){
+ body{padding:12px}.panel{padding:17px}.role-row{grid-template-columns:1fr 1fr}
+ .policy{grid-template-columns:1fr}.vertical{min-height:260px}
+ .assumption-grid,.result-grid,.payoff-grid{grid-template-columns:1fr}
+}
+@media(max-width:460px){.role-row,.prob-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="container">
+<section class="panel">
+<h1>정책안 계산기</h1>
+<p class="description">소득세율 T와 고용정책 α를 조정하고, Red와 Blue가 고용될 경우 선택할 것으로 예상하는 노동시간 H를 입력해 각 경우의 수익과 예상수익을 확인할 수 있습니다.</p>
+
+<div class="preview">
+<strong>설명 시연용 계산기입니다.</strong>
+실제 실험에서는 참가자의 역할이 자동으로 배정됩니다. 이 화면에서는 계산 방식 설명을 위해 역할을 바꾸어 각 역할의 수익이 어떻게 계산되는지 확인할 수 있습니다.
+</div>
+
+<div class="role-row">
+  <div class="control-box">
+    <label for="roleSelect" class="label">시연할 참가자 역할</label>
+    <select id="roleSelect">
+      <option value="RED">Red</option>
+      <option value="GREEN">Green</option>
+      <option value="BLUE">Blue</option>
+    </select>
+  </div>
+  <div class="metric-box"><span class="label">Red 생산성 W</span><div class="metric">50</div></div>
+  <div class="metric-box"><span class="label">Blue 생산성 W</span><div class="metric">35</div></div>
+  <div class="metric-box"><span class="label">현재 역할</span><div id="currentRole" class="metric">Red</div></div>
+</div>
+
+<section class="policy" aria-label="정책 선택">
+  <div>
+    <div>
+      <div class="slider-heading"><strong>소득세율 T</strong><span id="tValue" class="chip">25%</span></div>
+      <input id="tSlider" type="range" min="0" max="50" step="1" value="25" aria-label="소득세율 T">
+      <div class="range-labels"><span>0%</span><span>50%</span></div>
+    </div>
+    <div class="prob-row">
+      <div class="prob"><span class="label">Red 고용확률</span><strong id="redProbability">84%</strong></div>
+      <div class="prob"><span class="label">Blue 고용확률</span><strong id="blueProbability">16%</strong></div>
+    </div>
+  </div>
+
+  <div class="vertical">
+    <strong>고용정책 α</strong>
+    <span id="alphaValue" class="chip" style="margin-top:9px">16%</span>
+    <span class="end" style="margin-top:12px">33%</span>
+    <div class="vertical-track">
+      <input id="alphaSlider" type="range" min="0" max="33" step="1" value="16" aria-label="고용정책 alpha">
+    </div>
+    <span class="end">0%</span>
+  </div>
+</section>
+
+<section class="assumption">
+  <h2>노동시간 가정</h2>
+  <p class="note">각 참가자가 고용될 경우 선택할 것으로 생각하는 노동시간을 입력하세요. 이 값들은 계산을 위한 가정일 뿐이며 실제 노동시간 선택으로 저장되지 않습니다.</p>
+
+  <div class="assumption-grid">
+    <div class="input-card">
+      <label for="xrInput" class="input-title">Red 고용 시 가정한 H<sub>R</sub></label>
+      <input id="xrInput" type="number" min="0" max="50" step="1" placeholder="0~50의 정수">
+      <div id="xrHelp" class="input-help"></div>
+    </div>
+    <div class="input-card">
+      <label for="xbInput" class="input-title">Blue 고용 시 가정한 H<sub>B</sub></label>
+      <input id="xbInput" type="number" min="0" max="50" step="1" placeholder="0~50의 정수">
+      <div id="xbHelp" class="input-help"></div>
+    </div>
+  </div>
+
+  <div id="status" class="status" aria-live="polite">
+    H<sub>R</sub> 또는 H<sub>B</sub>를 입력하면 해당 고용 결과가 계산됩니다. 두 값을 모두 입력하면 예상수익도 계산됩니다.
+  </div>
+
+  <div class="button-row">
+    <button id="resetButton" class="reset" type="button">노동시간 가정 지우기</button>
+  </div>
+</section>
+
+<section class="results">
+<h2>고용 결과별 계산</h2>
+
+<div class="result-grid">
+  <article class="result-card">
+    <div class="result-header red">Red 고용 <span id="redCardProbability" style="float:right">84%</span></div>
+    <ul class="result-list">
+      <li><span>가정한 노동시간</span><strong id="redX">-</strong></li>
+      <li><span>생산액 W × H</span><strong id="redProduction">-</strong></li>
+      <li><span>노동비용 0.5 × H²</span><strong id="redLaborCost">-</strong></li>
+      <li><span>세금 총액</span><strong id="redTax">-</strong></li>
+      <li><span>Red 노동자 수익</span><strong id="redWorkerPayoff">-</strong></li>
+      <li><span>비고용자 1인 수익</span><strong id="redNonworkerPayoff">-</strong></li>
+    </ul>
+  </article>
+
+  <article class="result-card">
+    <div class="result-header blue">Blue 고용 <span id="blueCardProbability" style="float:right">16%</span></div>
+    <ul class="result-list">
+      <li><span>가정한 노동시간</span><strong id="blueX">-</strong></li>
+      <li><span>생산액 W × H</span><strong id="blueProduction">-</strong></li>
+      <li><span>노동비용 0.5 × H²</span><strong id="blueLaborCost">-</strong></li>
+      <li><span>세금 총액</span><strong id="blueTax">-</strong></li>
+      <li><span>Blue 노동자 수익</span><strong id="blueWorkerPayoff">-</strong></li>
+      <li><span>비고용자 1인 수익</span><strong id="blueNonworkerPayoff">-</strong></li>
+    </ul>
+  </article>
+</div>
+
+<div class="payoff-grid">
+  <div class="payoff-card"><div>Red 고용 시 나의 수익</div><div id="myRedPayoff" class="payoff-value">-</div></div>
+  <div class="payoff-card"><div>Blue 고용 시 나의 수익</div><div id="myBluePayoff" class="payoff-value">-</div></div>
+  <div class="payoff-card expected"><div>정책안이 채택될 경우 나의 예상수익</div><div id="expectedPayoff" class="payoff-value">-</div></div>
+</div>
+</section>
+
+<div class="formula">
+<strong>계산식</strong><br>
+생산액 = W × H<br>
+노동비용 = 0.5 × H²<br>
+세금 = (T/100) × W × H<br>
+노동자 수익 = 생산액 − 세금 − 노동비용<br>
+비고용자 한 명의 수익 = 세금 ÷ 2<br>
+예상수익 = Red 고용확률 × Red 고용 시 나의 수익 + Blue 고용확률 × Blue 고용 시 나의 수익
+</div>
+
+</section>
+</main>
+
+<script>
+(function(){
+"use strict";
+
+var W_RED=50;
+var W_BLUE=35;
+
+var roleSelect=document.getElementById("roleSelect");
+var currentRole=document.getElementById("currentRole");
+var tSlider=document.getElementById("tSlider");
+var alphaSlider=document.getElementById("alphaSlider");
+var xrInput=document.getElementById("xrInput");
+var xbInput=document.getElementById("xbInput");
+var resetButton=document.getElementById("resetButton");
+var tValue=document.getElementById("tValue");
+var alphaValue=document.getElementById("alphaValue");
+var redProbability=document.getElementById("redProbability");
+var blueProbability=document.getElementById("blueProbability");
+var redCardProbability=document.getElementById("redCardProbability");
+var blueCardProbability=document.getElementById("blueCardProbability");
+var xrHelp=document.getElementById("xrHelp");
+var xbHelp=document.getElementById("xbHelp");
+var status=document.getElementById("status");
+var expectedPayoff=document.getElementById("expectedPayoff");
+
+var format=function(value){
+  return Number(value).toLocaleString("ko-KR",{
+    minimumFractionDigits:2,
+    maximumFractionDigits:2
+  })+" 토큰";
+};
+
+var setText=function(id,value){
+  document.getElementById(id).textContent=value;
+};
+
+var readOptionalX=function(input){
+  if(input.value===""){
+    return {ready:false,valid:true,value:null};
+  }
+  var value=Number(input.value);
+  if(!Number.isFinite(value)||value<0||value>50||Math.floor(value)!==value){
+    return {ready:false,valid:false,value:null};
+  }
+  return {ready:true,valid:true,value:value};
+};
+
+var calculate=function(W,x,T){
+  var production=W*x;
+  var laborCost=0.5*x*x;
+  var tax=(T/100)*production;
+  return {
+    x:x,
+    production:production,
+    laborCost:laborCost,
+    tax:tax,
+    workerPayoff:production-tax-laborCost,
+    nonworkerPayoff:tax/2
+  };
+};
+
+var clearRow=function(prefix){
+  setText(prefix+"X","-");
+  setText(prefix+"Production","-");
+  setText(prefix+"LaborCost","-");
+  setText(prefix+"Tax","-");
+  setText(prefix+"WorkerPayoff","-");
+  setText(prefix+"NonworkerPayoff","-");
+};
+
+var showRow=function(prefix,r){
+  setText(prefix+"X",String(r.x));
+  setText(prefix+"Production",format(r.production));
+  setText(prefix+"LaborCost",format(r.laborCost));
+  setText(prefix+"Tax",format(r.tax));
+  setText(prefix+"WorkerPayoff",format(r.workerPayoff));
+  setText(prefix+"NonworkerPayoff",format(r.nonworkerPayoff));
+};
+
+var myPayoff=function(role,employedRole,result){
+  return role===employedRole ? result.workerPayoff : result.nonworkerPayoff;
+};
+
+var updateRoleHelp=function(){
+  var role=roleSelect.value;
+  currentRole.textContent=role==="RED"?"Red":role==="GREEN"?"Green":"Blue";
+
+  if(role==="RED"){
+    xrHelp.textContent="내가 Red로 고용될 경우 선택한다고 가정하는 노동시간 H";
+    xbHelp.textContent="Blue 참가자가 고용될 경우 선택한다고 예상하는 노동시간 H";
+  }else if(role==="BLUE"){
+    xrHelp.textContent="Red 참가자가 고용될 경우 선택한다고 예상하는 노동시간 H";
+    xbHelp.textContent="내가 Blue로 고용될 경우 선택한다고 가정하는 노동시간 H";
+  }else{
+    xrHelp.textContent="Red 참가자가 고용될 경우 선택한다고 예상하는 노동시간 H";
+    xbHelp.textContent="Blue 참가자가 고용될 경우 선택한다고 예상하는 노동시간 H";
+  }
+};
+
+var update=function(){
+  var role=roleSelect.value;
+  var T=Number(tSlider.value);
+  var alpha=Number(alphaSlider.value);
+  var pRed=(100-alpha)/100;
+  var pBlue=alpha/100;
+
+  tValue.textContent=T+"%";
+  alphaValue.textContent=alpha+"%";
+  redProbability.textContent=(100-alpha)+"%";
+  blueProbability.textContent=alpha+"%";
+  redCardProbability.textContent=(100-alpha)+"%";
+  blueCardProbability.textContent=alpha+"%";
+
+  var xr=readOptionalX(xrInput);
+  var xb=readOptionalX(xbInput);
+  var redResult=null;
+  var blueResult=null;
+
+  status.classList.remove("error");
+
+  if(xr.ready&&xr.valid){
+    redResult=calculate(W_RED,xr.value,T);
+    showRow("red",redResult);
+    setText("myRedPayoff",format(myPayoff(role,"RED",redResult)));
+  }else{
+    clearRow("red");
+    setText("myRedPayoff","-");
+  }
+
+  if(xb.ready&&xb.valid){
+    blueResult=calculate(W_BLUE,xb.value,T);
+    showRow("blue",blueResult);
+    setText("myBluePayoff",format(myPayoff(role,"BLUE",blueResult)));
+  }else{
+    clearRow("blue");
+    setText("myBluePayoff","-");
+  }
+
+  if(!xr.valid||!xb.valid){
+    expectedPayoff.textContent="-";
+    status.classList.add("error");
+    status.textContent="H_R과 H_B는 각각 0부터 50 사이의 정수여야 합니다.";
+    return;
+  }
+
+  if(redResult&&blueResult){
+    var expected=pRed*myPayoff(role,"RED",redResult)+pBlue*myPayoff(role,"BLUE",blueResult);
+    expectedPayoff.textContent=format(expected);
+    status.textContent="두 고용 경우와 현재 역할의 예상수익이 모두 계산되었습니다.";
+    return;
+  }
+
+  expectedPayoff.textContent="-";
+  if(redResult){
+    status.textContent="Red 고용 결과가 계산되었습니다. 예상수익을 계산하려면 H_B도 입력하세요.";
+  }else if(blueResult){
+    status.textContent="Blue 고용 결과가 계산되었습니다. 예상수익을 계산하려면 H_R도 입력하세요.";
+  }else{
+    status.innerHTML="H<sub>R</sub> 또는 H<sub>B</sub>를 입력하면 해당 고용 결과가 계산됩니다. 두 값을 모두 입력하면 예상수익도 계산됩니다.";
+  }
+};
+
+roleSelect.addEventListener("change",function(){updateRoleHelp();update();});
+tSlider.addEventListener("input",update);
+alphaSlider.addEventListener("input",update);
+xrInput.addEventListener("input",update);
+xbInput.addEventListener("input",update);
+
+resetButton.addEventListener("click",function(){
+  xrInput.value="";
+  xbInput.value="";
+  update();
+  xrInput.focus();
+});
+
+updateRoleHelp();
+update();
+}());
+</script>
+</body>
+</html>

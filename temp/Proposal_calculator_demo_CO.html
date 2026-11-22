@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control 정책안 계산기 — 설명 시연용</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#f4f6f8;--panel:#fff;--surface:#f8fafc;--text:#1f2937;
+  --muted:#5f6b7a;--border:#d6dce5;--accent:#2563eb;--accentSoft:#eaf1ff;
+  --danger:#b42318;--red:#b91c1c;--green:#15803d;--blue:#1d4ed8
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#111827;--panel:#1f2937;--surface:#111827;--text:#f3f4f6;
+    --muted:#c1c8d2;--border:#4b5563;--accent:#60a5fa;--accentSoft:#172554;
+    --danger:#fca5a5;--red:#f87171;--green:#4ade80;--blue:#60a5fa
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;padding:24px;font-family:Arial,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text)}
+button,input,select{font:inherit}
+.container{max-width:960px;margin:0 auto}
+.panel{padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:14px}
+h1{margin:0 0 10px;font-size:27px}
+h2{margin:0 0 12px;font-size:20px}
+.description,.note{color:var(--muted);line-height:1.65}
+.preview{margin:18px 0;padding:12px 14px;border-left:4px solid var(--accent);background:var(--accentSoft);line-height:1.55}
+.role-row{display:grid;grid-template-columns:minmax(220px,1.2fr) 1fr 1fr;gap:12px;margin:20px 0}
+.control-box,.metric-box,.input-card,.result-card,.payoff-card{border:1px solid var(--border);border-radius:10px;background:var(--surface)}
+.control-box,.metric-box{padding:14px}
+.metric-box{text-align:center}
+.label{display:block;margin-bottom:7px;color:var(--muted);font-size:14px}
+.metric{font-size:21px;font-weight:700}
+select,input[type=number]{width:100%;padding:10px;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:8px}
+.policy{margin-top:24px;padding:18px;border:1px solid var(--border);border-radius:12px}
+.slider-heading{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px;align-items:center}
+.chip{display:inline-block;min-width:65px;padding:5px 9px;text-align:center;font-weight:700;border:1px solid var(--border);border-radius:7px;background:var(--panel)}
+input[type=range]{width:100%}
+.range-labels{display:flex;justify-content:space-between;margin-top:5px;color:var(--muted);font-size:14px}
+.employment-note{margin-top:14px;padding:12px;border-radius:9px;background:var(--surface);line-height:1.55}
+.assumption{margin-top:24px;padding:18px;border:1px solid var(--border);border-radius:12px}
+.input-card{padding:15px;margin-top:14px}
+.input-title{display:block;margin-bottom:8px;font-weight:700}
+.input-help{margin-top:8px;color:var(--muted);font-size:14px;line-height:1.45}
+.status{margin-top:15px;padding:12px;border-radius:8px;background:var(--surface);color:var(--muted);line-height:1.5}
+.status.error{color:var(--danger);border:1px solid var(--danger)}
+.results{margin-top:24px}
+.result-card{overflow:hidden}
+.result-header{padding:13px 15px;border-bottom:1px solid var(--border);font-weight:700;color:var(--red)}
+.result-list{margin:0;padding:0;list-style:none}
+.result-list li{display:flex;justify-content:space-between;gap:16px;padding:11px 15px;border-bottom:1px solid var(--border)}
+.result-list li:last-child{border-bottom:0}
+.result-list span:first-child{color:var(--muted)}
+.result-list strong{text-align:right}
+.payoff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.payoff-card{padding:16px;text-align:center;border-width:2px}
+.payoff-card.current{border-color:var(--accent);background:var(--accentSoft)}
+.payoff-value{margin-top:8px;font-size:25px;font-weight:700}
+.my-payoff{margin-top:18px;padding:18px;text-align:center;border:2px solid var(--accent);border-radius:10px;background:var(--accentSoft)}
+.my-payoff .payoff-value{font-size:28px}
+.formula{margin-top:22px;padding:16px;line-height:1.7;border-left:4px solid var(--accent);background:var(--surface)}
+.button-row{display:flex;justify-content:flex-end;margin-top:18px}
+.reset{padding:9px 14px;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:8px;cursor:pointer}
+.reset:hover{background:var(--surface)}
+@media(max-width:720px){
+  body{padding:12px}.panel{padding:17px}.role-row,.payoff-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<main class="container">
+<section class="panel">
+<h1>정책안 계산기</h1>
+<p class="description">소득세율 T를 조정하고, Red가 선택할 것으로 예상하는 노동시간 H를 입력해 정책안이 채택될 경우 각 역할의 수익을 확인할 수 있습니다.</p>
+
+<div class="preview">
+<strong>설명 시연용 계산기입니다.</strong>
+실제 실험에서는 참가자의 역할이 자동으로 배정됩니다. 이 화면에서는 계산 방식 설명을 위해 역할을 바꾸어 각 역할의 수익이 어떻게 계산되는지 확인할 수 있습니다.
+</div>
+
+<div class="role-row">
+  <div class="control-box">
+    <label for="roleSelect" class="label">시연할 참가자 역할</label>
+    <select id="roleSelect">
+      <option value="RED">Red</option>
+      <option value="GREEN">Green</option>
+      <option value="BLUE">Blue</option>
+    </select>
+  </div>
+  <div class="metric-box"><span class="label">현재 역할</span><div id="currentRole" class="metric">Red</div></div>
+  <div class="metric-box"><span class="label">Red 생산성 W</span><div class="metric">50</div></div>
+</div>
+
+<section class="policy" aria-label="정책 선택">
+  <div class="slider-heading"><strong>소득세율 T</strong><span id="tValue" class="chip">25%</span></div>
+  <input id="tSlider" type="range" min="0" max="50" step="1" value="25" aria-label="소득세율 T">
+  <div class="range-labels"><span>0%</span><span>50%</span></div>
+
+  <div class="employment-note">
+    <strong>고용:</strong> 이 조건에서는 Red가 항상 고용됩니다. Green과 Blue는 고용되지 않으므로 생산성 W가 적용되지 않습니다.
+  </div>
+</section>
+
+<section class="assumption">
+  <h2>노동시간 가정</h2>
+  <p class="note">Red가 고용된 뒤 선택할 것으로 예상하는 노동시간을 입력하세요. 이 값은 계산을 위한 가정일 뿐이며 실제 노동시간 선택으로 저장되지 않습니다.</p>
+
+  <div class="input-card">
+    <label for="hInput" class="input-title">Red가 선택한다고 가정한 H<sub>R</sub></label>
+    <input id="hInput" type="number" min="0" max="50" step="1" placeholder="0~50의 정수">
+    <div id="hHelp" class="input-help"></div>
+  </div>
+
+  <div id="status" class="status" aria-live="polite">H<sub>R</sub>를 입력하면 계산 결과가 표시됩니다.</div>
+
+  <div class="button-row">
+    <button id="resetButton" class="reset" type="button">노동시간 가정 지우기</button>
+  </div>
+</section>
+
+<section class="results">
+<h2>정책안이 채택될 경우</h2>
+
+<article class="result-card">
+  <div class="result-header">Red 고용</div>
+  <ul class="result-list">
+    <li><span>가정한 노동시간 H<sub>R</sub></span><strong id="hResult">-</strong></li>
+    <li><span>생산액 W × H</span><strong id="production">-</strong></li>
+    <li><span>노동비용 0.5 × H²</span><strong id="laborCost">-</strong></li>
+    <li><span>세금 총액</span><strong id="tax">-</strong></li>
+  </ul>
+</article>
+
+<div class="payoff-grid">
+  <div id="redCard" class="payoff-card current"><div>Red 수익</div><div id="redPayoff" class="payoff-value">-</div></div>
+  <div id="greenCard" class="payoff-card"><div>Green 수익</div><div id="greenPayoff" class="payoff-value">-</div></div>
+  <div id="blueCard" class="payoff-card"><div>Blue 수익</div><div id="bluePayoff" class="payoff-value">-</div></div>
+</div>
+
+<div class="my-payoff">
+  <div>현재 역할의 수익</div>
+  <div id="myPayoff" class="payoff-value">-</div>
+</div>
+</section>
+
+<div class="formula">
+<strong>계산식</strong><br>
+생산액 = 50 × H<br>
+노동비용 = 0.5 × H²<br>
+세금 = (T/100) × 생산액<br>
+Red 수익 = 생산액 − 세금 − 노동비용<br>
+Green·Blue 각자의 수익 = 세금 ÷ 2
+</div>
+
+</section>
+</main>
+
+<script>
+(function(){
+"use strict";
+
+var W_RED=50;
+
+var roleSelect=document.getElementById("roleSelect");
+var currentRole=document.getElementById("currentRole");
+var tSlider=document.getElementById("tSlider");
+var tValue=document.getElementById("tValue");
+var hInput=document.getElementById("hInput");
+var hHelp=document.getElementById("hHelp");
+var status=document.getElementById("status");
+var resetButton=document.getElementById("resetButton");
+
+var format=function(value){
+  return Number(value).toLocaleString("ko-KR",{
+    minimumFractionDigits:2,
+    maximumFractionDigits:2
+  })+" 토큰";
+};
+
+var setText=function(id,value){
+  document.getElementById(id).textContent=value;
+};
+
+var readH=function(){
+  if(hInput.value===""){
+    return {ready:false,valid:true,value:null};
+  }
+  var value=Number(hInput.value);
+  if(!Number.isFinite(value)||value<0||value>50||Math.floor(value)!==value){
+    return {ready:false,valid:false,value:null};
+  }
+  return {ready:true,valid:true,value:value};
+};
+
+var setCurrentCard=function(role){
+  document.getElementById("redCard").classList.toggle("current",role==="RED");
+  document.getElementById("greenCard").classList.toggle("current",role==="GREEN");
+  document.getElementById("blueCard").classList.toggle("current",role==="BLUE");
+};
+
+var updateRoleHelp=function(){
+  var role=roleSelect.value;
+  currentRole.textContent=role==="RED"?"Red":role==="GREEN"?"Green":"Blue";
+  setCurrentCard(role);
+
+  if(role==="RED"){
+    hHelp.textContent="내가 Red로 고용된 뒤 선택한다고 가정하는 노동시간 H";
+  }else{
+    hHelp.textContent="Red 참가자가 고용된 뒤 선택한다고 예상하는 노동시간 H";
+  }
+};
+
+var clearResults=function(){
+  setText("hResult","-");
+  setText("production","-");
+  setText("laborCost","-");
+  setText("tax","-");
+  setText("redPayoff","-");
+  setText("greenPayoff","-");
+  setText("bluePayoff","-");
+  setText("myPayoff","-");
+};
+
+var update=function(){
+  var role=roleSelect.value;
+  var T=Number(tSlider.value);
+  var h=readH();
+
+  tValue.textContent=T+"%";
+  status.classList.remove("error");
+
+  if(!h.valid){
+    clearResults();
+    status.classList.add("error");
+    status.textContent="H_R은 0부터 50 사이의 정수여야 합니다.";
+    return;
+  }
+
+  if(!h.ready){
+    clearResults();
+    status.innerHTML="H<sub>R</sub>를 입력하면 계산 결과가 표시됩니다.";
+    return;
+  }
+
+  var production=W_RED*h.value;
+  var laborCost=0.5*h.value*h.value;
+  var tax=(T/100)*production;
+  var redPayoff=production-tax-laborCost;
+  var nonworkerPayoff=tax/2;
+  var myPayoff=role==="RED"?redPayoff:nonworkerPayoff;
+
+  setText("hResult",String(h.value));
+  setText("production",format(production));
+  setText("laborCost",format(laborCost));
+  setText("tax",format(tax));
+  setText("redPayoff",format(redPayoff));
+  setText("greenPayoff",format(nonworkerPayoff));
+  setText("bluePayoff",format(nonworkerPayoff));
+  setText("myPayoff",format(myPayoff));
+  status.textContent="현재 정책안과 노동시간 가정에 따른 수익이 계산되었습니다.";
+};
+
+roleSelect.addEventListener("change",function(){
+  updateRoleHelp();
+  update();
+});
+tSlider.addEventListener("input",update);
+hInput.addEventListener("input",update);
+
+resetButton.addEventListener("click",function(){
+  hInput.value="";
+  update();
+  hInput.focus();
+});
+
+updateRoleHelp();
+update();
+}());
+</script>
+</body>
+</html>

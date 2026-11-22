@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>노동시간 계산기 — 설명 시연용</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #5f6b7a;
+      --border: #d5dbe3;
+      --accent-soft: #e8f0ff;
+      --result: #f8fafc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --card: #1f2937;
+        --text: #f3f4f6;
+        --muted: #c0c7d1;
+        --border: #4b5563;
+        --accent-soft: #172554;
+        --result: #111827;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+    }
+    h1 { margin-top: 0; font-size: 26px; }
+    h2 { margin-top: 0; font-size: 20px; }
+    .description { color: var(--muted); line-height: 1.6; }
+    .condition-grid, .result-grid, .payoff-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .condition-grid {
+      grid-template-columns: repeat(4, 1fr);
+      margin: 20px 0;
+    }
+    .result-grid, .payoff-grid {
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 18px;
+    }
+    .condition-box, .result-box, .payoff-box {
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 14px;
+      text-align: center;
+      background: var(--result);
+    }
+    .payoff-box { border-width: 2px; }
+    .label {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 7px;
+    }
+    .value { font-size: 22px; font-weight: 700; }
+    .x-section {
+      margin-top: 22px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--accent-soft);
+    }
+    .x-controls {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) 120px;
+      gap: 18px;
+      align-items: center;
+      margin-top: 13px;
+    }
+    input[type="range"] { width: 100%; }
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 17px;
+      text-align: center;
+    }
+    .range-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .status {
+      margin-top: 18px;
+      padding: 12px;
+      border-radius: 8px;
+      background: var(--result);
+      color: var(--muted);
+    }
+    .formula, .check-box {
+      margin-top: 20px;
+      padding: 16px;
+      background: var(--result);
+      line-height: 1.7;
+    }
+    .formula { border-left: 4px solid #2563eb; }
+    .check-box {
+      border: 1px dashed var(--border);
+      border-radius: 9px;
+    }
+    @media (max-width: 720px) {
+      body { padding: 12px; }
+      .condition-grid { grid-template-columns: repeat(2, 1fr); }
+      .result-grid, .payoff-grid, .x-controls { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="panel">
+      <h1>노동시간 계산기</h1>
+      <p class="description">
+        예시로 고용된 참가자는 <strong>Red</strong>, 생산성은 <strong>W=50</strong>,
+        소득세율은 <strong>T=50%</strong>로 설정되어 있습니다.
+        슬라이더의 원하는 위치를 클릭하거나 드래그해 노동시간 H를 선택하세요. 처음에는 어떤 노동시간도 선택되어 있지 않습니다.
+        실제 실험에서는 해당 회차의 역할, 생산성, 소득세율이 자동으로 반영됩니다.
+      </p>
+
+      <div class="condition-grid" aria-label="고정 조건">
+        <div class="condition-box"><div class="label">고용된 역할</div><div class="value">Red</div></div>
+        <div class="condition-box"><div class="label">생산성 W</div><div class="value">50</div></div>
+        <div class="condition-box"><div class="label">소득세율 T</div><div class="value">50%</div></div>
+        <div class="condition-box"><div class="label">비고용자 수</div><div class="value">2명</div></div>
+      </div>
+
+      <div class="x-section">
+        <h2>노동시간 H 선택</h2>
+        <div class="x-controls">
+          <div>
+            <input id="xSlider" class="unselected" type="range" min="0" max="50" step="1" value="25" aria-label="노동시간 H 슬라이더">
+            <div class="range-labels"><span>0</span><span>50</span></div>
+          </div>
+          <div>
+            <label for="xInput" class="label">현재 H</label>
+            <input id="xInput" type="number" min="0" max="50" step="1" placeholder="0~50">
+          </div>
+        </div>
+      </div>
+
+      <div class="result-grid" aria-label="생산 및 세금 계산">
+        <div class="result-box"><div class="label">생산액 W × H</div><div class="value" id="production">-</div></div>
+        <div class="result-box"><div class="label">노동비용 0.5 × H²</div><div class="value" id="laborCost">-</div></div>
+        <div class="result-box"><div class="label">세금 총액</div><div class="value" id="tax">-</div></div>
+      </div>
+
+      <div class="payoff-grid" aria-label="참가자별 수익">
+        <div class="payoff-box"><div class="label">고용된 Red의 수익</div><div class="value" id="myPayoff">-</div></div>
+        <div class="payoff-box"><div class="label">Green의 수익</div><div class="value" id="other1Payoff">-</div></div>
+        <div class="payoff-box"><div class="label">Blue의 수익</div><div class="value" id="other2Payoff">-</div></div>
+      </div>
+
+      <div id="status" class="status" aria-live="polite">슬라이더를 조작하거나 H 값을 입력하면 계산 결과가 표시됩니다.</div>
+
+      <div class="formula">
+        <strong>계산식</strong><br>
+        생산액 = 50 × H<br>
+        노동비용 = 0.5 × H²<br>
+        세금 = 50% × 생산액<br>
+        Red 수익 = 생산액 − 세금 − 노동비용<br>
+        Green·Blue 각자의 수익 = 세금 ÷ 2
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var W = 50;
+      var taxRate = 0.50;
+
+      var slider = document.getElementById("xSlider");
+      var input = document.getElementById("xInput");
+      var productionEl = document.getElementById("production");
+      var laborCostEl = document.getElementById("laborCost");
+      var taxEl = document.getElementById("tax");
+      var myPayoffEl = document.getElementById("myPayoff");
+      var other1El = document.getElementById("other1Payoff");
+      var other2El = document.getElementById("other2Payoff");
+      var statusEl = document.getElementById("status");
+
+      var format = function (value) {
+        return Number(value).toLocaleString("ko-KR", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        }) + " 토큰";
+      };
+
+      var clearResults = function (message) {
+        productionEl.textContent = "-";
+        laborCostEl.textContent = "-";
+        taxEl.textContent = "-";
+        myPayoffEl.textContent = "-";
+        other1El.textContent = "-";
+        other2El.textContent = "-";
+        statusEl.textContent = message;
+      };
+
+      var update = function (rawValue) {
+        var x = Number(rawValue);
+
+        if (!Number.isFinite(x) || x < 0 || x > 50 || Math.floor(x) !== x) {
+          clearResults("H는 0부터 50 사이의 정수여야 합니다.");
+          return;
+        }
+
+        var production = W * x;
+        var laborCost = 0.5 * x * x;
+        var tax = taxRate * production;
+        var myPayoff = production - tax - laborCost;
+        var eachOtherPayoff = tax / 2;
+
+        productionEl.textContent = format(production);
+        laborCostEl.textContent = format(laborCost);
+        taxEl.textContent = format(tax);
+        myPayoffEl.textContent = format(myPayoff);
+        other1El.textContent = format(eachOtherPayoff);
+        other2El.textContent = format(eachOtherPayoff);
+        statusEl.textContent = "현재 선택한 노동시간은 H = " + x + "입니다.";
+      };
+
+      slider.addEventListener("input", function () {
+        slider.classList.remove("unselected");
+        input.value = slider.value;
+        update(slider.value);
+      });
+
+      input.addEventListener("input", function () {
+        if (input.value === "") {
+          clearResults("H를 입력하거나 슬라이더를 움직이세요.");
+          return;
+        }
+
+        var value = Number(input.value);
+
+        if (Number.isFinite(value) && value >= 0 && value <= 50 && Math.floor(value) === value) {
+          slider.value = String(value);
+        }
+
+        update(value);
+      });
+
+      clearResults("슬라이더를 조작하거나 H 값을 입력하면 계산 결과가 표시됩니다.");
+    }());
+  </script>
+</body>
+</html>
